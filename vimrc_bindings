@@ -1,0 +1,93 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""
+""" Ben Bleything's Vim Setup
+""" Based on the work of many others. See README.rdoc for credits.
+""" Modified by Kyle Poole
+"""
+""" Git Hubs: http://github.com/bleything/dotvim
+""" Internet Electronic Mail: ben@bleything.net
+"""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" K E Y   B I N D I N G S
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let mapleader=',' " set leader to ,
+
+" format paragraphs (72 columns)
+map ^^ {!}par w72qrg<CR>
+
+" one-stroke window maximizing
+"map <C-H> <C-W>h<C-W><BAR>
+"map <C-L> <C-W>l<C-W><BAR>
+"map <C-J> <C-W>j<C-W>_
+"map <C-K> <C-W>k<C-W>_
+
+" quick buffer switching
+map <leader>[ :bprevious<CR>
+map <leader>] :bnext<CR>
+
+" shortcut to compile/run the current file
+map <leader>r :w<CR>:make %<CR>
+
+" shortcut to strip trailing whitespace
+map <leader>s :s/\s\+$//g<CR>
+
+" fold helpers:
+"   Tab: toggle fold state
+"   Shift-Tab: toggle state of outermost fold
+"   Ctrl-Tab: open all folds
+map <TAB> za
+map <S-TAB> zA
+map <C-TAB> zR
+
+" Maps to make handling windows a bit easier
+noremap <silent> ,h :wincmd h<CR>
+noremap <silent> ,j :wincmd j<CR>
+noremap <silent> ,k :wincmd k<CR>
+noremap <silent> ,l :wincmd l<CR>
+noremap <silent> ,sb :wincmd p<CR>
+noremap <silent> <C-F9>  :vertical resize -10<CR>
+noremap <silent> <C-F10> :resize +10<CR>
+noremap <silent> <C-F11> :resize -10<CR>
+noremap <silent> <C-F12> :vertical resize +10<CR>
+noremap <silent> ,s8 :vertical resize 83<CR>
+noremap <silent> ,cj :wincmd j<CR>:close<CR>
+noremap <silent> ,ck :wincmd k<CR>:close<CR>
+noremap <silent> ,ch :wincmd h<CR>:close<CR>
+noremap <silent> ,cl :wincmd l<CR>:close<CR>
+noremap <silent> ,cc :close<CR>
+noremap <silent> ,cw :cclose<CR>
+noremap <silent> ,ml <C-W>L
+noremap <silent> ,mk <C-W>K
+noremap <silent> ,mh <C-W>H
+noremap <silent> ,mj <C-W>J
+noremap <silent> <C-7> <C-W>>
+noremap <silent> <C-8> <C-W>+
+noremap <silent> <C-9> <C-W>+
+noremap <silent> <C-0> <C-W>>
+
+" Map ctrl-movement keys to window switching
+map <C-k> <C-w><Up>
+map <C-j> <C-w><Down>
+map <C-l> <C-w><Right>
+map <C-h> <C-w><Left>
+
+" allow a more natural style of line editing in :ex mode
+cnoremap <C-A> <Home>
+cnoremap <C-E> <End>
+cnoremap <C-F> <Right>
+cnoremap <C-B> <Left>
+
+"nmap <F3> I<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR> - <Esc>
+""imap <F3> <Esc>I<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR> - <Esc>
+nmap <F5> o<C-R>=strftime("%I:%M %p")<CR> - 
+imap <F5> <Esc>o<C-R>=strftime("%I:%M %p")<CR> - 
+iab *** <Esc>I#<Esc>
+nmap <F6> <Esc>I#<Esc>
+imap <F6> <Esc>I#<Esc>
+
+map <F2> NERDTreeToggle
+map <F3> "+P
+map! <F3> <C-R>+
+set pastetoggle=<F4>

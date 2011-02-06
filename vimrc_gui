@@ -1,0 +1,35 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""
+""" Ben Bleything's Vim Setup
+""" Based on the work of many others. See README.rdoc for credits.
+"""
+""" Git Hubs: http://github.com/bleything/dotvim
+""" Internet Electronic Mail: ben@bleything.net
+"""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" G U I   O P T I O N S
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"colorscheme candycode       " use a nice 256-color scheme in the gui
+set mouse=a                 " use mouse when possible
+"set guifont=Inconsolata:h16 " Inconsolata, 16pt high
+
+" set default window size
+set columns=170
+set lines=48
+
+" GUI option string.  Values:
+"   a: visual-mode selections go to the clipboard
+"   A: modeless selections go to the clipboard
+"   c: don't pop up windows; use the console for dialog boxes and such
+"   e: use GUI tab bar instead of text tab bar
+set guioptions=aAce
+
+" Set up the gui cursor to look nice
+set guicursor=n-v-c:block-Cursor-blinkon0
+set guicursor+=ve:ver35-Cursor
+set guicursor+=o:hor50-Cursor
+set guicursor+=i-ci:ver25-Cursor
+set guicursor+=r-cr:hor20-Cursor
+set guicursor+=sm:block-Cursor-blinkwait175-blinkoff150-blinkon175

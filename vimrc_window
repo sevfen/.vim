@@ -1,0 +1,57 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""
+""" Ben Bleything's Vim Setup
+""" Based on the work of many others. See README.rdoc for credits.
+""" Modified by Kyle Poole
+"""
+""" Git Hubs: http://github.com/bleything/dotvim
+""" Internet Electronic Mail: ben@bleything.net
+"""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" W I N D O W   O P T I O N S
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+syntax on       " turn on syntax highlighting
+"set number      " show line numbers
+set showbreak=+ " display a + at the beginning of a wrapped line
+set showmatch   " flash the matching bracket on inserting a )]} etc
+
+set ruler          " shows cursor position in the lower right
+set showcmd        " shows incomplete command to the left of the ruler
+set showmode       " show the current mode
+"set winminheight=0 " allow windows to be 0 lines tall
+"set winminwidth=0  " allow windows to be 0 lines wide
+set laststatus=2   " always show statusline
+
+" Set the textwidth to be 120 chars
+set textwidth=120
+
+" get rid of the silly characters in window separators
+set fillchars=""
+
+" set up statusline, ends up looking like this:
+"
+"   [1] window.vimrc [Preview] [vim,+]          0x00 @ l22 c51 (88%)
+"
+set statusline=
+set statusline+=%n:\                      " buffer number
+set statusline+=%f                        " filename
+set statusline+=%<                        " truncate here if necessary
+set statusline+=%10w                      " displays [Preview] if it is
+set statusline+=\ [                       " fix spacing, open bracket
+set statusline+=%{strlen(&ft)?&ft:'none'} " filetype
+set statusline+=%M                        " + if modified, - if r/o
+set statusline+=]                         " close bracket
+set statusline+=%=                        " right-align remainder
+set statusline+=0x%02B\                   " character hex value
+set statusline+=@\ L%l\ C%c\ (%P)\        " position in file
+"set stl=%f\ %m\ %r\ Line:%l/%L[%p%%]\ Col:%c\ Buf:%n\ [%b][0x%B]
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" C O L O R   O P T I O N S
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"set background=dark " use colors suitable for dark backgrounds
+"colorscheme torte
+set t_Co=256 "for zenburn theme in terminal
+colo zenburn
