@@ -1,0 +1,1093 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AbstractSandbox	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^class AbstractSandbox:$/;"	c
+AvailableDistributions	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^AvailableDistributions = Environment    # XXX backward compatibility$/;"	v
+BINARY_DIST	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^BINARY_DIST = 2$/;"	v
+BLANKLINE_MARKER	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^BLANKLINE_MARKER = '<BLANKLINE>'$/;"	v
+CBRACKET	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^CBRACKET = re.compile(r"\\s*\\]").match$/;"	v
+CHECKOUT_DIST	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^CHECKOUT_DIST = 0$/;"	v
+COMMA	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^COMMA    = re.compile(r"\\s*,").match               # comma between items$/;"	v
+COMPARISON_FLAGS	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^COMPARISON_FLAGS = (DONT_ACCEPT_TRUE_FOR_1 |$/;"	v
+CONTINUE	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^CONTINUE = re.compile(r"\\s*\\\\\\s*(#.*)?$").match    # line continuation$/;"	v
+Command	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^class Command(_Command):$/;"	c
+DEFAULT_REPOSITORY	/usr/lib/python2.7/dist-packages/setuptools/command/upload.py	/^    DEFAULT_REPOSITORY = 'http:\/\/pypi.python.org\/pypi'$/;"	v	class:upload
+DEFAULT_SCHEME	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    DEFAULT_SCHEME = dict($/;"	v
+DEVELOP_DIST	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^DEVELOP_DIST = -1$/;"	v
+DISTRO	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^DISTRO   = re.compile(r"\\s*((\\w|[-.])+)").match    # Distribution or extra$/;"	v
+DIVIDER	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    DIVIDER = "*" * 70$/;"	v	class:DocTestRunner
+DONT_ACCEPT_BLANKLINE	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^DONT_ACCEPT_BLANKLINE = register_optionflag('DONT_ACCEPT_BLANKLINE')$/;"	v
+DONT_ACCEPT_TRUE_FOR_1	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^DONT_ACCEPT_TRUE_FOR_1 = register_optionflag('DONT_ACCEPT_TRUE_FOR_1')$/;"	v
+DebugRunner	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class DebugRunner(DocTestRunner):$/;"	c
+DefaultProvider	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class DefaultProvider(EggProvider):$/;"	c
+DependsTests	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^class DependsTests(TestCase):$/;"	c
+DirectorySandbox	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^class DirectorySandbox(AbstractSandbox):$/;"	c
+Distribution	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class Distribution(object):$/;"	c
+Distribution	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^class Distribution(_Distribution):$/;"	c
+DistributionNotFound	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class DistributionNotFound(ResolutionError):$/;"	c
+DistributionWithoutHelpCommands	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    class DistributionWithoutHelpCommands(Distribution):$/;"	c	function:main
+DistroTests	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^class DistroTests(TestCase):$/;"	c
+DistroTests	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^class DistroTests(TestCase):$/;"	c
+DistutilsRefactoringTool	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    class DistutilsRefactoringTool(RefactoringTool):$/;"	c
+DocFileCase	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class DocFileCase(DocTestCase):$/;"	c
+DocFileSuite	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def DocFileSuite(*paths, **kw):$/;"	f
+DocFileTest	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def DocFileTest(path, module_relative=True, package=None,$/;"	f
+DocTest	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class DocTest:$/;"	c
+DocTestCase	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class DocTestCase(unittest.TestCase):$/;"	c
+DocTestFailure	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class DocTestFailure(Exception):$/;"	c
+DocTestFinder	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class DocTestFinder:$/;"	c
+DocTestParser	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class DocTestParser:$/;"	c
+DocTestRunner	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class DocTestRunner:$/;"	c
+DocTestSuite	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def DocTestSuite(module=None, globs=None, extraglobs=None, test_finder=None,$/;"	f
+EGG_DIST	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^EGG_DIST    = 3$/;"	v
+EGG_FRAGMENT	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^EGG_FRAGMENT = re.compile(r'^egg=([-A-Za-z0-9_.]+)$')$/;"	v
+EGG_NAME	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^EGG_NAME = re.compile($/;"	v
+ELLIPSIS	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^ELLIPSIS = register_optionflag('ELLIPSIS')$/;"	v
+ELLIPSIS_MARKER	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^ELLIPSIS_MARKER = '...'$/;"	v
+EXTENSIONS	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^EXTENSIONS = ".tar.gz .tar.bz2 .tar .zip .tgz".split()$/;"	v
+EggMetadata	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class EggMetadata(ZipProvider):$/;"	c
+EggProvider	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class EggProvider(NullProvider):$/;"	c
+EmptyProvider	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class EmptyProvider(NullProvider):$/;"	c
+EntryPoint	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class EntryPoint(object):$/;"	c
+EntryPointTests	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^class EntryPointTests(TestCase):$/;"	c
+Environment	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class Environment(object):$/;"	c
+Example	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class Example:$/;"	c
+Extension	/usr/lib/python2.7/dist-packages/setuptools/extension.py	/^class Extension(_Extension):$/;"	c
+ExtractionError	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class ExtractionError(RuntimeError):$/;"	c
+FakeDist	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^class FakeDist(object):$/;"	c
+Feature	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^class Feature:$/;"	c
+FeatureTests	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^class FeatureTests(TestCase):$/;"	c
+FileList	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^class FileList(FileList):$/;"	c
+FileMetadata	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class FileMetadata(EmptyProvider):$/;"	c
+HAS_USER_SITE	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^HAS_USER_SITE = not sys.version < "2.6" and site.ENABLE_USER_SITE$/;"	v
+IGNORE_EXCEPTION_DETAIL	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^IGNORE_EXCEPTION_DETAIL = register_optionflag('IGNORE_EXCEPTION_DETAIL')$/;"	v
+IMetadataProvider	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class IMetadataProvider:$/;"	c
+INSTALL_DIRECTORY_ATTRS	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^INSTALL_DIRECTORY_ATTRS = [$/;"	v
+INSTALL_SCHEMES	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    INSTALL_SCHEMES = dict($/;"	v
+IResourceProvider	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class IResourceProvider(IMetadataProvider):$/;"	c
+ImpLoader	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class ImpLoader:$/;"	c
+ImpWrapper	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    ImpWrapper = ImpImporter    # Python 2.5, use pkgutil's implementation$/;"	v
+ImpWrapper	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class ImpWrapper:$/;"	c
+IndexServer	/usr/lib/python2.7/dist-packages/setuptools/tests/server.py	/^class IndexServer(HTTPServer):$/;"	c
+LINE_END	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^LINE_END = re.compile(r"\\s*(#.*)?$").match         # whitespace and comment$/;"	v
+Library	/usr/lib/python2.7/dist-packages/setuptools/extension.py	/^class Library(Extension):$/;"	c
+MODULE	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^MODULE   = re.compile(r"\\w+(\\.\\w+)*$").match$/;"	v
+Metadata	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^class Metadata(EmptyProvider):$/;"	c
+Mixin2to3	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    class Mixin2to3(_Mixin2to3):$/;"	c
+Mixin2to3	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    class Mixin2to3:$/;"	c
+NATIVE_EXTENSIONS	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^NATIVE_EXTENSIONS = dict.fromkeys('.dll .so .dylib .pyd'.split())$/;"	v
+NORMALIZE_WHITESPACE	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^NORMALIZE_WHITESPACE = register_optionflag('NORMALIZE_WHITESPACE')$/;"	v
+NS_PKG_STUB	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^NS_PKG_STUB = '__import__("pkg_resources").declare_namespace(__name__)'$/;"	v
+NullProvider	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class NullProvider:$/;"	c
+OBRACKET	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^OBRACKET = re.compile(r"\\s*\\[").match$/;"	v
+OPTIONFLAGS_BY_NAME	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^OPTIONFLAGS_BY_NAME = {}$/;"	v
+OutputChecker	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class OutputChecker:$/;"	c
+PYPI_MD5	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^PYPI_MD5 = re.compile($/;"	v
+PY_MAJOR	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^PY_MAJOR = sys.version[:3]$/;"	v
+PackageIndex	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^class PackageIndex(Environment):$/;"	c
+ParseTests	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^class ParseTests(TestCase):$/;"	c
+PathMetadata	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class PathMetadata(DefaultProvider):$/;"	c
+PthDistributions	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^class PthDistributions(Environment):$/;"	c
+REPORTING_FLAGS	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^REPORTING_FLAGS = (REPORT_UDIFF |$/;"	v
+REPORT_CDIFF	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^REPORT_CDIFF = register_optionflag('REPORT_CDIFF')$/;"	v
+REPORT_NDIFF	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^REPORT_NDIFF = register_optionflag('REPORT_NDIFF')$/;"	v
+REPORT_ONLY_FIRST_FAILURE	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^REPORT_ONLY_FIRST_FAILURE = register_optionflag('REPORT_ONLY_FIRST_FAILURE')$/;"	v
+REPORT_UDIFF	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^REPORT_UDIFF = register_optionflag('REPORT_UDIFF')$/;"	v
+Require	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^class Require:$/;"	c
+Requirement	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class Requirement:$/;"	c
+RequirementsTests	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^class RequirementsTests(TestCase):$/;"	c
+ResolutionError	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class ResolutionError(Exception):$/;"	c
+ResourceManager	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class ResourceManager:$/;"	c
+SOURCE_DIST	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^SOURCE_DIST = 1$/;"	v
+SandboxViolation	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^class SandboxViolation(DistutilsError):$/;"	c
+ScanningLoader	/usr/lib/python2.7/dist-packages/setuptools/command/test.py	/^class ScanningLoader(TestLoader):$/;"	c
+ScriptHeaderTests	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^class ScriptHeaderTests(TestCase):$/;"	c
+StringIO	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def StringIO(*args, **kw):$/;"	f
+TestBuildExtTest	/usr/lib/python2.7/dist-packages/setuptools/tests/test_build_ext.py	/^class TestBuildExtTest(unittest.TestCase):$/;"	c
+TestCommandTests	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^class TestCommandTests(TestCase):$/;"	c
+TestDevelopTest	/usr/lib/python2.7/dist-packages/setuptools/tests/test_develop.py	/^class TestDevelopTest(unittest.TestCase):$/;"	c
+TestEasyInstallTest	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^class TestEasyInstallTest(unittest.TestCase):$/;"	c
+TestPTHFileWriter	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^class TestPTHFileWriter(unittest.TestCase):$/;"	c
+TestPackageIndex	/usr/lib/python2.7/dist-packages/setuptools/tests/test_packageindex.py	/^class TestPackageIndex(unittest.TestCase):$/;"	c
+TestSandbox	/usr/lib/python2.7/dist-packages/setuptools/tests/test_sandbox.py	/^class TestSandbox(unittest.TestCase):$/;"	c
+TestUploadDocsTest	/usr/lib/python2.7/dist-packages/setuptools/tests/test_upload_docs.py	/^class TestUploadDocsTest(unittest.TestCase):$/;"	c
+TestUserInstallTest	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^class TestUserInstallTest(unittest.TestCase):$/;"	c
+Tester	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class Tester:$/;"	c
+URL_SCHEME	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^URL_SCHEME = re.compile('([-+.a-z0-9]{2,}):',re.I).match$/;"	v
+UnexpectedException	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class UnexpectedException(Exception):$/;"	c
+UnknownExtra	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class UnknownExtra(ResolutionError):$/;"	c
+UnrecognizedFormat	/usr/lib/python2.7/dist-packages/setuptools/archive_util.py	/^class UnrecognizedFormat(DistutilsError):$/;"	c
+VERSION	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^VERSION  = re.compile(r"\\s*(<=?|>=?|==|!=)\\s*((\\w|[-.])+)").match  # ver. info$/;"	v
+VersionConflict	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class VersionConflict(ResolutionError):$/;"	c
+WRITE_FLAGS	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^WRITE_FLAGS = reduce($/;"	v
+WRITE_SUPPORT	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    WRITE_SUPPORT = False$/;"	v
+WRITE_SUPPORT	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    WRITE_SUPPORT = True$/;"	v
+WorkingSet	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class WorkingSet(object):$/;"	c
+ZipProvider	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^class ZipProvider(EggProvider):$/;"	c
+_Command	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^_Command = _get_unpatched(_Command)$/;"	v
+_Distribution	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^_Distribution = _get_unpatched(_Distribution)$/;"	v
+_EXCEPTIONS	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    _EXCEPTIONS = []$/;"	v
+_EXCEPTIONS	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    _EXCEPTIONS = [os.devnull,]$/;"	v
+_Extension	/usr/lib/python2.7/dist-packages/setuptools/extension.py	/^_Extension = _get_unpatched(_Extension)$/;"	v
+_INDENT_RE	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    _INDENT_RE = re.compile('^([ ]*)(?=\\S)', re.MULTILINE)$/;"	v	class:DocTestParser
+_IS_BLANK_OR_COMMENT	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    _IS_BLANK_OR_COMMENT = re.compile(r'^[ ]*(#.*)?$').match$/;"	v	class:DocTestParser
+_IS_PYTHON3	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^_IS_PYTHON3 = sys.version > '3'$/;"	v
+_LOG	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    _LOG = None$/;"	v
+_LOG	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    _LOG = logging.getLogger('test_easy_install')$/;"	v
+_MULTIPROC	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    _MULTIPROC = False$/;"	v
+_MULTIPROC	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    _MULTIPROC = True$/;"	v
+_OPTION_DIRECTIVE_RE	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    _OPTION_DIRECTIVE_RE = re.compile(r'#\\s*doctest:\\s*([^\\n\\'"]*)$',$/;"	v	class:DocTestParser
+_OutputRedirectingPdb	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class _OutputRedirectingPdb(pdb.Pdb):$/;"	c
+_SOCKET_TIMEOUT	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^_SOCKET_TIMEOUT = 15$/;"	v
+_SpoofOut	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class _SpoofOut(StringIO):$/;"	c
+_TestClass	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^class _TestClass:$/;"	c
+__LINECACHE_FILENAME_RE	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    __LINECACHE_FILENAME_RE = re.compile(r'<doctest '$/;"	v	class:DocTestRunner
+__add__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __add__(self, other):$/;"	m	class:Environment	file:
+__all__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^__all__ = [$/;"	v
+__all__	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^__all__ = [$/;"	v
+__all__	/usr/lib/python2.7/dist-packages/setuptools/archive_util.py	/^__all__ = [$/;"	v
+__all__	/usr/lib/python2.7/dist-packages/setuptools/command/__init__.py	/^__all__ = [$/;"	v
+__all__	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^__all__ = [$/;"	v
+__all__	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^__all__ = ['config_file', 'edit_config', 'option_base', 'setopt']$/;"	v
+__all__	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^__all__ = [$/;"	v
+__all__	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^__all__ = ['Distribution']$/;"	v
+__all__	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^__all__ = [$/;"	v
+__all__	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^__all__ = [$/;"	v
+__all__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^__all__ = [$/;"	v
+__boot	/usr/lib/python2.7/dist-packages/site.py	/^def __boot():$/;"	f	file:
+__cmp__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __cmp__(self, other):$/;"	m	class:DocTest	file:
+__contains__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __contains__(self,dist):$/;"	m	class:WorkingSet	file:
+__contains__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __contains__(self,item):$/;"	m	class:Requirement	file:
+__doc__	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^    __doc__ = _Command.__doc__$/;"	v	class:Command
+__doc__	/usr/lib/python2.7/dist-packages/setuptools/command/register.py	/^    __doc__ = _register.__doc__$/;"	v	class:register
+__docformat__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^__docformat__ = 'reStructuredText en'$/;"	v
+__eq__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __eq__(self, other):$/;"	m	class:Distribution	file:
+__eq__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __eq__(self,other):$/;"	m	class:Requirement	file:
+__ge__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __ge__(self, other):$/;"	m	class:Distribution	file:
+__getattr__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __getattr__(self,attr):$/;"	m	class:Distribution	file:
+__getattr__	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def __getattr__(self,attr):$/;"	m	class:build_py	file:
+__getitem__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __getitem__(self,project_name):$/;"	m	class:Environment	file:
+__gt__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __gt__(self, other):$/;"	m	class:Distribution	file:
+__hash__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __hash__(self): return hash(self.hashcmp)$/;"	m	class:Distribution	file:
+__hash__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __hash__(self):$/;"	m	class:Requirement	file:
+__iadd__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __iadd__(self, other):$/;"	m	class:Environment	file:
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self):$/;"	m	class:EmptyProvider
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self):$/;"	m	class:ResourceManager
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self, entries=None):$/;"	m	class:WorkingSet
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self, file, filename, etc):$/;"	m	class:ImpLoader
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self, importer):$/;"	m	class:EggMetadata
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self, module):$/;"	m	class:NullProvider
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self, module):$/;"	m	class:ZipProvider
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self, name, module_name, attrs=(), extras=(), dist=None):$/;"	m	class:EntryPoint
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self, path, egg_info):$/;"	m	class:PathMetadata
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self, path=None):$/;"	m	class:ImpWrapper
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self, project_name, specs, extras):$/;"	m	class:Requirement
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self, search_path=None, platform=get_supported_platform(), python=PY_MAJOR):$/;"	m	class:Environment
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self,$/;"	m	class:Distribution
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self,module):$/;"	m	class:EggProvider
+__init__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __init__(self,path):$/;"	m	class:FileMetadata
+__init__	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^    def __init__(self, dist, **kw):$/;"	m	class:Command
+__init__	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def __init__(self, filename, sitedirs=()):$/;"	m	class:PthDistributions
+__init__	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^    def __init__(self,name,requested_version,module,homepage='',$/;"	m	class:Require
+__init__	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def __init__ (self, attrs=None):$/;"	m	class:Distribution
+__init__	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def __init__(self, description, standard=False, available=True,$/;"	m	class:Feature
+__init__	/usr/lib/python2.7/dist-packages/setuptools/extension.py	/^        def __init__(self,*args,**kw):$/;"	m	class:Extension
+__init__	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def __init__(self, index_url="http:\/\/pypi.python.org\/simple", hosts=('*',),$/;"	m	class:PackageIndex
+__init__	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def __init__(self):$/;"	m	class:AbstractSandbox
+__init__	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def __init__(self, sandbox, exceptions=_EXCEPTIONS):$/;"	m	class:DirectorySandbox
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __init__(self, checker=None, verbose=None, optionflags=0):$/;"	m	class:DocTestRunner
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __init__(self, examples, globs, name, filename, lineno, docstring):$/;"	m	class:DocTest
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __init__(self, mod=None, globs=None, verbose=None,$/;"	m	class:Tester
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __init__(self, out):$/;"	m	class:_OutputRedirectingPdb
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __init__(self, source, want, exc_msg=None, lineno=0, indent=0,$/;"	m	class:Example
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __init__(self, test, example, exc_info):$/;"	m	class:UnexpectedException
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __init__(self, test, example, got):$/;"	m	class:DocTestFailure
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __init__(self, test, optionflags=0, setUp=None, tearDown=None,$/;"	m	class:DocTestCase
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __init__(self, val):$/;"	m	class:_TestClass
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __init__(self, verbose=False, parser=DocTestParser(),$/;"	m	class:DocTestFinder
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/server.py	/^    def __init__(self):$/;"	m	class:IndexServer
+__init__	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def __init__(self,*pairs):$/;"	m	class:Metadata
+__iter__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __iter__(self):$/;"	m	class:Environment	file:
+__iter__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __iter__(self):$/;"	m	class:WorkingSet	file:
+__le__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __le__(self, other):$/;"	m	class:Distribution	file:
+__lt__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __lt__(self, other):$/;"	m	class:Distribution	file:
+__ne__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __ne__(self, other):$/;"	m	class:Distribution	file:
+__patched_linecache_getlines	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __patched_linecache_getlines(self, filename, module_globals=None):$/;"	m	class:DocTestRunner	file:
+__record_outcome	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __record_outcome(self, test, f, t):$/;"	m	class:DocTestRunner	file:
+__repr__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __repr__(self): return "Requirement.parse(%r)" % str(self)$/;"	m	class:Requirement	file:
+__repr__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __repr__(self):$/;"	m	class:Distribution	file:
+__repr__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __repr__(self):$/;"	m	class:EntryPoint	file:
+__repr__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __repr__(self):$/;"	m	class:ResolutionError	file:
+__repr__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __repr__(self):$/;"	m	class:DocFileCase	file:
+__repr__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __repr__(self):$/;"	m	class:DocTest	file:
+__repr__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __repr__(self):$/;"	m	class:DocTestCase	file:
+__run	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __run(self, test, compileflags, out):$/;"	m	class:DocTestRunner	file:
+__str__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __str__(self):$/;"	m	class:Distribution	file:
+__str__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __str__(self):$/;"	m	class:EntryPoint	file:
+__str__	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def __str__(self):$/;"	m	class:Requirement	file:
+__str__	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def __str__(self):$/;"	m	class:SandboxViolation	file:
+__str__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    __str__ = __repr__$/;"	v	class:DocFileCase
+__str__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    __str__ = __repr__$/;"	v	class:DocTestCase
+__str__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __str__(self):$/;"	m	class:DocTestFailure	file:
+__str__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def __str__(self):$/;"	m	class:UnexpectedException	file:
+__test__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^__test__ = {"_TestClass": _TestClass,$/;"	v
+__version__	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^__version__ = '0.6'$/;"	v
+_active	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    _active = False$/;"	v	class:AbstractSandbox
+_added_new	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _added_new(self, dist):$/;"	m	class:WorkingSet
+_attempt_download	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def _attempt_download(self, url, filename):$/;"	m	class:PackageIndex
+_build_ext	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    _build_ext = _du_build_ext$/;"	v
+_bypass_ensure_directory	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _bypass_ensure_directory(name, mode=0777):$/;"	f
+_bytecode_filenames	/usr/lib/python2.7/dist-packages/setuptools/command/install_lib.py	/^    def _bytecode_filenames (self, py_filenames):$/;"	m	class:install_lib
+_check_prefix	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _check_prefix(self, lines, prefix, name, lineno):$/;"	m	class:DocTestParser
+_check_prompt_blank	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _check_prompt_blank(self, lines, indent, name, lineno):$/;"	m	class:DocTestParser
+_chmod	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def _chmod(*args): pass$/;"	f	function:is_python_script
+_comment_line	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def _comment_line(line):$/;"	f
+_copy	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _copy(self, source):$/;"	m	class:AbstractSandbox
+_default_revctrl	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^def _default_revctrl(dirname=''):$/;"	f
+_dep_map	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    _dep_map = property(_dep_map)$/;"	v	class:Distribution
+_dep_map	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _dep_map(self):$/;"	m	class:Distribution
+_distribute	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^_distribute = True$/;"	v
+_distribute	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^_distribute = True$/;"	v
+_distribution_finders	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^_distribution_finders = {}$/;"	v
+_do_a_fancy_diff	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _do_a_fancy_diff(self, want, got, optionflags):$/;"	m	class:OutputChecker
+_dont_write_bytecode	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^    _dont_write_bytecode = False$/;"	v
+_dont_write_bytecode	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^    _dont_write_bytecode = True$/;"	v
+_download_html	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def _download_html(self, url, headers, filename):$/;"	m	class:PackageIndex
+_download_svn	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def _download_svn(self, url, filename):$/;"	m	class:PackageIndex
+_download_to	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def _download_to(self, url, filename):$/;"	m	class:PackageIndex
+_download_url	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def _download_url(self, scheme, url, tmpdir):$/;"	m	class:PackageIndex
+_eager_to_zip	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _eager_to_zip(self,resource_name):$/;"	m	class:ZipProvider
+_ellipsis_match	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def _ellipsis_match(want, got):$/;"	f
+_exception_traceback	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def _exception_traceback(exc_info):$/;"	f
+_exclude_misc	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def _exclude_misc(self,name,value):$/;"	m	class:Distribution
+_exclude_packages	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def _exclude_packages(self,packages):$/;"	m	class:Distribution
+_exempted	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _exempted(self, filepath):$/;"	m	class:DirectorySandbox
+_expand	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def _expand(self, *attrs):$/;"	f
+_expand_attrs	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def _expand_attrs(self, attrs):$/;"	m	class:easy_install
+_extract_future_flags	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def _extract_future_flags(globs):$/;"	f
+_extract_resource	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _extract_resource(self, manager, zip_path):$/;"	m	class:ZipProvider
+_failure_header	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _failure_header(self, test, example):$/;"	m	class:DocTestRunner
+_feature_attrname	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def _feature_attrname(self,name):$/;"	m	class:Distribution
+_file	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^        def _file(self, path, mode='r', *args, **kw):$/;"	f	function:DirectorySandbox._violation
+_file	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    _file = None$/;"	v
+_file	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    _file = file$/;"	v
+_file_writer	/usr/lib/python2.7/dist-packages/setuptools/tests/test_sandbox.py	/^    _file_writer = staticmethod(_file_writer)$/;"	v	class:TestSandbox
+_file_writer	/usr/lib/python2.7/dist-packages/setuptools/tests/test_sandbox.py	/^    def _file_writer(path):$/;"	m	class:TestSandbox
+_filter	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _filter(self, obj, prefix, base):$/;"	m	class:DocTestFinder
+_finalize_features	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def _finalize_features(self):$/;"	m	class:Distribution
+_find	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _find(self, tests, obj, name, module, source_lines, globs, seen):$/;"	m	class:DocTestFinder
+_find_adapter	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _find_adapter(registry, ob):$/;"	f
+_find_lineno	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _find_lineno(self, obj, source_lines):$/;"	m	class:DocTestFinder
+_find_options	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _find_options(self, source, name, lineno):$/;"	m	class:DocTestParser
+_fn	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _fn(self, base, resource_name):$/;"	m	class:NullProvider
+_from_module	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _from_module(self, module, object):$/;"	m	class:DocTestFinder
+_get	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    _get          = lambda self,path: ''$/;"	v	class:EmptyProvider
+_get	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _get(self, path):$/;"	m	class:DefaultProvider
+_get	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _get(self, path):$/;"	m	class:NullProvider
+_get_all_ns_packages	/usr/lib/python2.7/dist-packages/setuptools/command/install_egg_info.py	/^    def _get_all_ns_packages(self):$/;"	m	class:install_egg_info
+_get_data_files	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def _get_data_files(self):$/;"	m	class:build_py
+_get_eager_resources	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _get_eager_resources(self):$/;"	m	class:ZipProvider
+_get_metadata	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _get_metadata(self,name):$/;"	m	class:Distribution
+_get_mro	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _get_mro(cls):$/;"	f
+_get_test	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _get_test(self, obj, name, module, globs, source_lines):$/;"	m	class:DocTestFinder
+_get_unpatched	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^def _get_unpatched(cls):$/;"	f
+_handle_ns	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _handle_ns(packageName, path_item):$/;"	f
+_has	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _has(self, fspath):$/;"	m	class:ZipProvider
+_has	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _has(self, path):$/;"	m	class:DefaultProvider
+_has	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _has(self, path):$/;"	m	class:NullProvider
+_include_misc	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def _include_misc(self,name,value):$/;"	m	class:Distribution
+_indent	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def _indent(s, indent=4):$/;"	f
+_index	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _index(self):$/;"	m	class:ZipProvider
+_initialize	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _initialize(g):$/;"	f
+_isdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _isdir(self, path):$/;"	m	class:NullProvider
+_isdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _isdir(self,fspath):$/;"	m	class:ZipProvider
+_isdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _isdir(self,path):$/;"	m	class:DefaultProvider
+_iter_code	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^def _iter_code(code):$/;"	f
+_listdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    _listdir      = lambda self,path: []$/;"	v	class:EmptyProvider
+_listdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _listdir(self, path):$/;"	m	class:NullProvider
+_listdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _listdir(self,fspath):$/;"	m	class:ZipProvider
+_listdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _listdir(self,path):$/;"	m	class:DefaultProvider
+_load	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def _load(self):$/;"	m	class:PthDistributions
+_macosx_arch	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _macosx_arch(machine):$/;"	f
+_macosx_vers	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _macosx_vers(_cache=[]):$/;"	f
+_make_spec_file	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_rpm.py	/^    def _make_spec_file(self):$/;"	m	class:bdist_rpm
+_manager	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^_manager = ResourceManager()$/;"	v
+_min_indent	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _min_indent(self, s):$/;"	m	class:DocTestParser
+_mk_dual_path_wrapper	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _mk_dual_path_wrapper(name):$/;"	m	class:AbstractSandbox
+_mk_query	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _mk_query(name):$/;"	m	class:AbstractSandbox
+_mk_single_path_wrapper	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _mk_single_path_wrapper(name, original=None):$/;"	m	class:AbstractSandbox
+_mk_single_with_return	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _mk_single_with_return(name):$/;"	m	class:AbstractSandbox
+_mkstemp	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _mkstemp(*args,**kw):$/;"	f
+_module_relative_path	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def _module_relative_path(module, path):$/;"	f
+_namespace_handlers	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^_namespace_handlers = {}$/;"	v
+_namespace_packages	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^_namespace_packages = {}$/;"	v
+_nc	/usr/lib/python2.7/dist-packages/setuptools/command/install.py	/^    _nc = dict(new_commands)$/;"	v	class:install
+_normalize_cached	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _normalize_cached(filename,_cache={}):$/;"	f
+_normalize_module	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def _normalize_module(module, depth=2):$/;"	f
+_ok	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _ok(self,path):$/;"	m	class:DirectorySandbox
+_open	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    _open = _mk_single_path_wrapper('open', _open)$/;"	v	class:AbstractSandbox
+_open	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _open(self, path, mode='r', *args, **kw):$/;"	m	class:DirectorySandbox
+_open	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^_open = open$/;"	v
+_os	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^_os = sys.modules[os.name]$/;"	v
+_override_setuptools	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _override_setuptools(req):$/;"	f
+_parse_command_line	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^        def _parse_command_line(self):$/;"	f	function:TestEasyInstallTest.test_no_setup_cfg
+_parse_command_opts	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def _parse_command_opts(self, parser, args):$/;"	m	class:Distribution
+_parse_example	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def _parse_example(self, m, name, lineno):$/;"	m	class:DocTestParser
+_parse_version_parts	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _parse_version_parts(s):$/;"	f
+_parts	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _parts(self,zip_path):$/;"	m	class:ZipProvider
+_patched_dist	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    _patched_dist = None$/;"	v	class:Distribution
+_provider_factories	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^_provider_factories = {}$/;"	v
+_remap_input	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _remap_input(self,operation,path,*args,**kw):$/;"	m	class:AbstractSandbox
+_remap_input	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _remap_input(self,operation,path,*args,**kw):$/;"	m	class:DirectorySandbox
+_remap_output	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _remap_output(self,operation,path):$/;"	m	class:AbstractSandbox
+_remap_pair	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _remap_pair(self,operation,src,dst,*args,**kw):$/;"	m	class:AbstractSandbox
+_remap_pair	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _remap_pair(self,operation,src,dst,*args,**kw):$/;"	m	class:DirectorySandbox
+_remove_md5_fragment	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _remove_md5_fragment(location):$/;"	f
+_resource_to_zip	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _resource_to_zip(self,resource_name):$/;"	m	class:ZipProvider
+_set_feature	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def _set_feature(self,name,status):$/;"	m	class:Distribution
+_set_global_opts_from_features	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def _set_global_opts_from_features(self):$/;"	m	class:Distribution
+_set_parent_ns	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _set_parent_ns(packageName):$/;"	f
+_setup_prefix	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _setup_prefix(self):$/;"	m	class:EggProvider
+_show_help	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^        def _show_help(self,*args,**kw):$/;"	m	class:main.DistributionWithoutHelpCommands
+_socket_timeout	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^        def _socket_timeout(*args, **kwargs):$/;"	f	function:socket_timeout._socket_timeout
+_socket_timeout	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def _socket_timeout(func):$/;"	f	function:socket_timeout
+_sort_dists	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def _sort_dists(dists):$/;"	f
+_test	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def _test():$/;"	f
+_to_ascii	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def _to_ascii(s):$/;"	f
+_to_ascii	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def _to_ascii(s):$/;"	f	function:samefile
+_uncache	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def _uncache(path, cache):$/;"	f
+_unittest_reportflags	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^_unittest_reportflags = 0$/;"	v
+_urlopen	/usr/lib/python2.7/dist-packages/setuptools/tests/test_packageindex.py	/^        def _urlopen(*args):$/;"	f	function:TestPackageIndex.test_bad_urls
+_validate_path	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _validate_path(self,path):$/;"	m	class:AbstractSandbox
+_violation	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def _violation(self, operation, *args, **kw):$/;"	m	class:DirectorySandbox
+_zipinfo_name	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def _zipinfo_name(self, fspath):$/;"	m	class:ZipProvider
+activate	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def activate(self,path=None):$/;"	m	class:Distribution
+add	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def add(self, dist, entry=None, insert=True):$/;"	m	class:WorkingSet
+add	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def add(self,dist):$/;"	m	class:Environment
+add	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def add(self,dist):$/;"	m	class:PthDistributions
+add_activation_listener	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^add_activation_listener = working_set.subscribe$/;"	v
+add_defaults	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def add_defaults(self):$/;"	m	class:manifest_maker
+add_defaults	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^    def add_defaults(self):$/;"	m	class:sdist
+add_entry	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def add_entry(self, entry):$/;"	m	class:WorkingSet
+add_find_links	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def add_find_links(self, urls):$/;"	m	class:PackageIndex
+add_output	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def add_output(self, path):$/;"	f
+additional_tests	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^def additional_tests():$/;"	f
+alias	/usr/lib/python2.7/dist-packages/setuptools/command/alias.py	/^class alias(option_base):$/;"	c
+analyze_egg	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^def analyze_egg(egg_dir, stubs):$/;"	f
+analyze_manifest	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def analyze_manifest(self):$/;"	m	class:build_py
+append	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def append(self, item):$/;"	m	class:FileList
+argv	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^        argv = sys.argv[1:]$/;"	v	class:main.DistributionWithoutHelpCommands
+as_requirement	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def as_requirement(self):$/;"	m	class:Distribution
+as_requirement	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def as_requirement(self):$/;"	m	class:FakeDist
+assert_bool	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^def assert_bool(dist, attr, value):$/;"	f
+assert_relative	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^def assert_relative(path):$/;"	f
+assert_string_list	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^def assert_string_list(dist, attr, value):$/;"	f
+assertfields	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def assertfields(self, ep):$/;"	m	class:EntryPointTests
+auto_chmod	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def auto_chmod(func, arg, exc):$/;"	f
+b	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^def b(str_or_bytes):$/;"	f
+base_url	/usr/lib/python2.7/dist-packages/setuptools/tests/server.py	/^    def base_url(self):$/;"	m	class:IndexServer
+basestring	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    basestring = str,unicode$/;"	v
+bdist_egg	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^class bdist_egg(Command):$/;"	c
+bdist_rpm	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_rpm.py	/^class bdist_rpm(_bdist_rpm):$/;"	c
+bdist_wininst	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_wininst.py	/^class bdist_wininst(_bdist_wininst):$/;"	c
+best_match	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def best_match(self, req, working_set, installer=None):$/;"	m	class:Environment
+boolean_options	/usr/lib/python2.7/dist-packages/setuptools/command/alias.py	/^    boolean_options = option_base.boolean_options + ['remove']$/;"	v	class:alias
+boolean_options	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    boolean_options = [$/;"	v	class:bdist_egg
+boolean_options	/usr/lib/python2.7/dist-packages/setuptools/command/develop.py	/^    boolean_options = easy_install.boolean_options + ['uninstall']$/;"	v	class:develop
+boolean_options	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    boolean_options = [$/;"	v	class:easy_install
+boolean_options	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    boolean_options = ['tag-date', 'tag-svn-revision']$/;"	v	class:egg_info
+boolean_options	/usr/lib/python2.7/dist-packages/setuptools/command/install.py	/^    boolean_options = _install.boolean_options + [$/;"	v	class:install
+boolean_options	/usr/lib/python2.7/dist-packages/setuptools/command/rotate.py	/^    boolean_options = []$/;"	v	class:rotate
+boolean_options	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^    boolean_options = [$/;"	v	class:option_base
+boolean_options	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^    boolean_options = option_base.boolean_options + ['remove']$/;"	v	class:setopt
+boolean_options	/usr/lib/python2.7/dist-packages/setuptools/command/upload.py	/^    boolean_options = ['show-response', 'sign']$/;"	v	class:upload
+boolean_options	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^    boolean_options = upload.boolean_options$/;"	v	class:upload_docs
+bootstrap	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def bootstrap():$/;"	f
+bootstrap_install_from	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^bootstrap_install_from = None$/;"	v
+build_and_install	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def build_and_install(self, setup_script, setup_base):$/;"	f
+build_ext	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^class build_ext(_build_ext):$/;"	c
+build_extension	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def build_extension(self, ext):$/;"	m	class:build_ext
+build_module	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def build_module(self, module, module_file, package):$/;"	m	class:build_py
+build_package_data	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def build_package_data(self):$/;"	m	class:build_py
+build_py	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^class build_py(_build_py, Mixin2to3):$/;"	c
+byte_compile	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def byte_compile(self, to_compile):$/;"	f
+bytes	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^    bytes = str$/;"	v
+c	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^        def c(s1,s2):$/;"	f	function:ParseTests.testVersionEquality
+c	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^        def c(s1,s2):$/;"	f	function:ParseTests.testVersionOrdering
+call_command	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def call_command(self,cmdname,**kw):$/;"	m	class:bdist_egg
+can_add	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def can_add(self, dist):$/;"	m	class:Environment
+can_scan	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^def can_scan():$/;"	f
+cant_write_to_target	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def cant_write_to_target(self):$/;"	m	class:easy_install
+checkFooPkg	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def checkFooPkg(self,d):$/;"	m	class:DistroTests
+checkRequires	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def checkRequires(self, dist, txt, extras=()):$/;"	m	class:DistroTests
+checkSubMap	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def checkSubMap(self, m):$/;"	m	class:EntryPointTests
+check_broken_egg_info	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def check_broken_egg_info(self):$/;"	m	class:egg_info
+check_conflicts	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def check_conflicts(self, dist):$/;"	f
+check_editable	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def check_editable(self,spec):$/;"	f
+check_entry_points	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^def check_entry_points(dist, attr, value):$/;"	f
+check_extras	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^def check_extras(dist, attr, value):$/;"	f
+check_importable	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^def check_importable(dist, attr, value):$/;"	f
+check_md5	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def check_md5(self, cs, info, filename, tfp):$/;"	m	class:PackageIndex
+check_nsp	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^def check_nsp(dist, attr, value):$/;"	f
+check_output	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def check_output(self, want, got, optionflags):$/;"	m	class:OutputChecker
+check_package	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def check_package(self, package, package_dir):$/;"	m	class:build_py
+check_package_data	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^def check_package_data(dist, attr, value):$/;"	f
+check_packages	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^def check_packages(dist, attr, value):$/;"	f
+check_pth_processing	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def check_pth_processing(self):$/;"	f
+check_readme	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^    def check_readme(self):$/;"	m	class:sdist
+check_requirements	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^def check_requirements(dist, attr, value):$/;"	f
+check_site_dir	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def check_site_dir(self):$/;"	m	class:easy_install
+check_test_suite	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^def check_test_suite(dist, attr, value):$/;"	f
+check_version_conflict	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def check_version_conflict(self):$/;"	m	class:Distribution
+chmod	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def chmod(path, mode):$/;"	f
+cleanup_resources	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def cleanup_resources(self, force=False):$/;"	m	class:ResourceManager
+clone	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def clone(self,**kw):$/;"	m	class:Distribution
+cls	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^        class cls(cls,object): pass$/;"	c	function:_get_mro
+command_consumes_arguments	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^    command_consumes_arguments = False$/;"	v	class:Command
+command_consumes_arguments	/usr/lib/python2.7/dist-packages/setuptools/command/alias.py	/^    command_consumes_arguments = True$/;"	v	class:alias
+command_consumes_arguments	/usr/lib/python2.7/dist-packages/setuptools/command/develop.py	/^    command_consumes_arguments = False  # override base$/;"	v	class:develop
+command_consumes_arguments	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    command_consumes_arguments = True$/;"	v	class:easy_install
+common_usage	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^        common_usage = ""$/;"	v	class:main.DistributionWithoutHelpCommands
+compatible_platforms	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def compatible_platforms(provided,required):$/;"	f
+component_re	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^component_re = re.compile(r'(\\d+ | [a-z]+ | \\.| -)', re.VERBOSE)$/;"	v
+compression	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    compression = [zipfile.ZIP_STORED, zipfile.ZIP_DEFLATED][bool(compress)]$/;"	v
+config_file	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^def config_file(kind="local"):$/;"	f
+copy_extensions_to_source	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def copy_extensions_to_source(self):$/;"	m	class:build_ext
+copy_metadata_to	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def copy_metadata_to(self, target_dir):$/;"	m	class:bdist_egg
+copy_tree	/usr/lib/python2.7/dist-packages/setuptools/command/install_lib.py	/^    def copy_tree($/;"	m	class:install_lib
+copytree	/usr/lib/python2.7/dist-packages/setuptools/command/install_egg_info.py	/^    def copytree(self):$/;"	m	class:install_egg_info
+create_exe	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_wininst.py	/^    def create_exe(self, arcname, fullname, bitmap=None):$/;"	m	class:bdist_wininst
+create_home_path	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def create_home_path(self):$/;"	f
+create_index	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    create_index = PackageIndex$/;"	v	class:easy_install
+create_zipfile	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^    def create_zipfile(self):$/;"	m	class:upload_docs
+darwinVersionString	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^darwinVersionString = re.compile(r"darwin-(\\d+)\\.(\\d+)\\.(\\d+)-(.*)")$/;"	v
+debug	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def debug(self, msg, *args):$/;"	m	class:PackageIndex
+debug	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def debug(self):$/;"	m	class:DocTestCase
+debug	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def debug(module, name, pm=False):$/;"	f
+debug_script	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def debug_script(src, pm=False, globs=None):$/;"	f
+debug_src	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def debug_src(src, pm=False, globs=None):$/;"	f
+declare_namespace	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def declare_namespace(packageName):$/;"	f
+decode_entity	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def decode_entity(match):$/;"	f
+default_filter	/usr/lib/python2.7/dist-packages/setuptools/archive_util.py	/^def default_filter(src,dst):$/;"	f
+delete_blockers	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def delete_blockers(self, blockers):$/;"	m	class:easy_install
+delete_file	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def delete_file(self, filename):$/;"	m	class:egg_info
+description	/usr/lib/python2.7/dist-packages/setuptools/command/alias.py	/^    description = "define a shortcut to invoke one or more commands"$/;"	v	class:alias
+description	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    description = "create an \\"egg\\" distribution"$/;"	v	class:bdist_egg
+description	/usr/lib/python2.7/dist-packages/setuptools/command/develop.py	/^    description = "install package in 'development mode'"$/;"	v	class:develop
+description	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    description = "Find\/get\/install Python packages"$/;"	v	class:easy_install
+description	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    description = "create a distribution's .egg-info directory"$/;"	v	class:egg_info
+description	/usr/lib/python2.7/dist-packages/setuptools/command/install_egg_info.py	/^    description = "Install an .egg-info directory for the package"$/;"	v	class:install_egg_info
+description	/usr/lib/python2.7/dist-packages/setuptools/command/rotate.py	/^    description = "delete older distributions, keeping N newest files"$/;"	v	class:rotate
+description	/usr/lib/python2.7/dist-packages/setuptools/command/saveopts.py	/^    description = "save supplied options to setup.cfg or other config file"$/;"	v	class:saveopts
+description	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^    description = "set an option in setup.cfg or another config file"$/;"	v	class:setopt
+description	/usr/lib/python2.7/dist-packages/setuptools/command/test.py	/^    description = "run unit tests after in-place build"$/;"	v	class:test
+description	/usr/lib/python2.7/dist-packages/setuptools/command/upload.py	/^    description = "upload binary package to PyPI"$/;"	v	class:upload
+description	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^    description = 'Upload documentation to PyPI'$/;"	v	class:upload_docs
+develop	/usr/lib/python2.7/dist-packages/setuptools/command/develop.py	/^class develop(easy_install):$/;"	c
+dirty	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    dirty = False$/;"	v	class:PthDistributions
+distRequires	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def distRequires(self, txt):$/;"	m	class:DistroTests
+distros_for_filename	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def distros_for_filename(filename, metadata=None):$/;"	f
+distros_for_location	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def distros_for_location(location, basename, metadata=None):$/;"	f
+distros_for_url	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def distros_for_url(url, metadata=None):$/;"	f
+dl_blocksize	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    dl_blocksize = 8192$/;"	v	class:PackageIndex
+do_egg_install	/usr/lib/python2.7/dist-packages/setuptools/command/install.py	/^    def do_egg_install(self):$/;"	m	class:install
+do_install_data	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def do_install_data(self):$/;"	m	class:bdist_egg
+do_write	/usr/lib/python2.7/dist-packages/setuptools/tests/test_sandbox.py	/^        def do_write():$/;"	f	function:TestSandbox._file_writer
+download	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def download(self, spec, tmpdir):$/;"	m	class:PackageIndex
+eagers	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    eagers = None$/;"	v	class:ZipProvider
+easy_install	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def easy_install(self, spec, deps=False):$/;"	f
+easy_install	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^class easy_install(Command):$/;"	c
+edit_config	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^def edit_config(filename, settings, dry_run=False):$/;"	f
+egg_distribution	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def egg_distribution(self, egg_path):$/;"	f
+egg_info	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    egg_info = None$/;"	v	class:NullProvider
+egg_info	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^class egg_info(Command):$/;"	c
+egg_info_for_url	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def egg_info_for_url(url):$/;"	f
+egg_name	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def egg_name(self):$/;"	m	class:Distribution
+egg_name	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    egg_name = None$/;"	v	class:NullProvider
+empty_provider	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^empty_provider = EmptyProvider()$/;"	v
+ensure_directory	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def ensure_directory(path):$/;"	f
+entities	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^entities = [$/;"	v
+entity_sub	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^entity_sub = re.compile(r'&(#(\\d+|x[\\da-fA-F]+)|[\\w.:-]+);?').sub$/;"	v
+entries_finder	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^def entries_finder(dirname, filename):$/;"	f
+entries_pattern	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^entries_pattern = re.compile(r'name="([^"]+)"(?![^>]+deleted="true")', re.I)$/;"	v
+enumerate	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def enumerate(seq):$/;"	f
+exclude	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def exclude(self,**attrs):$/;"	m	class:Distribution
+exclude_data_files	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def exclude_data_files(self, package, src_dir, files):$/;"	m	class:build_py
+exclude_from	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def exclude_from(self,dist):$/;"	m	class:Feature
+exclude_package	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def exclude_package(self,package):$/;"	m	class:Distribution
+exe_to_egg	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def exe_to_egg(self, dist_filename, egg_tmp):$/;"	f
+expand_basedirs	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def expand_basedirs(self):$/;"	m	class:easy_install
+expand_dirs	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def expand_dirs(self):$/;"	m	class:easy_install
+expand_paths	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def expand_paths(inputs):$/;"	f
+externals_finder	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^def externals_finder(dirname, filename):$/;"	f
+extract_constant	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^def extract_constant(code,symbol,default=-1):$/;"	f
+extract_wininst_cfg	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def extract_wininst_cfg(dist_filename):$/;"	f
+extraction_drivers	/usr/lib/python2.7/dist-packages/setuptools/archive_util.py	/^extraction_drivers = unpack_directory, unpack_zipfile, unpack_tarfile$/;"	v
+extraction_error	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def extraction_error(self):$/;"	m	class:ResourceManager
+extraction_path	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    extraction_path = None$/;"	v	class:ResourceManager
+extras	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def extras(self):$/;"	m	class:Distribution
+extras	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    extras = property(extras)$/;"	v	class:Distribution
+f1	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^        def f1():$/;"	f	function:DependsTests.testExtractConst
+feature_is_included	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def feature_is_included(self,name):$/;"	m	class:Distribution
+fetch	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def fetch(self, requirement, tmpdir, force_scan=False, source=False):$/;"	m	class:PackageIndex
+fetch_build_egg	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def fetch_build_egg(self, req):$/;"	m	class:Distribution
+fetch_build_eggs	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def fetch_build_eggs(self, requires):$/;"	m	class:Distribution
+fetch_distribution	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def fetch_distribution(self,$/;"	m	class:PackageIndex
+file_ns_handler	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def file_ns_handler(importer, path_item, packageName, module):$/;"	f
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/alias.py	/^    def finalize_options(self):$/;"	m	class:alias
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def finalize_options(self):$/;"	m	class:bdist_egg
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def finalize_options(self):$/;"	m	class:build_ext
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def finalize_options(self):$/;"	m	class:build_py
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/develop.py	/^    def finalize_options(self):$/;"	m	class:develop
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def finalize_options(self):$/;"	m	class:easy_install
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def finalize_options (self):$/;"	m	class:egg_info
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def finalize_options(self):$/;"	m	class:manifest_maker
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/install.py	/^    def finalize_options(self):$/;"	m	class:install
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/install_egg_info.py	/^    def finalize_options(self):$/;"	m	class:install_egg_info
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/rotate.py	/^    def finalize_options(self):$/;"	m	class:rotate
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^    def finalize_options(self):$/;"	m	class:option_base
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^    def finalize_options(self):$/;"	m	class:setopt
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/test.py	/^    def finalize_options(self):$/;"	m	class:test
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/upload.py	/^    def finalize_options(self):$/;"	m	class:upload
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^    def finalize_options(self):$/;"	m	class:upload_docs
+finalize_options	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def finalize_options(self):$/;"	m	class:Distribution
+find	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def find(self, req):$/;"	m	class:WorkingSet
+find	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^    def find(dirname, filename):$/;"	f	function:re_finder
+find	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^        def find(req, env=None):$/;"	f	function:PackageIndex.fetch_distribution
+find	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def find(self, obj, name=None, module=None, globs=None,$/;"	m	class:DocTestFinder
+find_config_files	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^        def find_config_files(self):$/;"	m	class:main.DistributionWithoutHelpCommands
+find_data_files	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def find_data_files(self, package, src_dir):$/;"	m	class:build_py
+find_distributions	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def find_distributions(path_item, only=False):$/;"	f
+find_external_links	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def find_external_links(url, page):$/;"	f
+find_in_zip	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def find_in_zip(importer, path_item, only=False):$/;"	f
+find_module	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def find_module(self, fullname, path=None):$/;"	m	class:ImpWrapper
+find_module	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^def find_module(module, paths=None):$/;"	f
+find_nothing	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def find_nothing(importer, path_item, only=False):$/;"	f
+find_on_path	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def find_on_path(importer, path_item, only=False):$/;"	f
+find_packages	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^def find_packages(where='.', exclude=()):$/;"	f
+find_packages	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def find_packages(self, requirement):$/;"	m	class:PackageIndex
+find_plugins	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def find_plugins(self,$/;"	m	class:WorkingSet
+find_sources	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def find_sources(self):$/;"	m	class:egg_info
+findall	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^def findall(dir = os.curdir):$/;"	f
+finders	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^finders = [$/;"	v
+fix_jython_executable	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def fix_jython_executable(executable, options):$/;"	f
+fix_sf_url	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def fix_sf_url(url):$/;"	f
+fixup_namespace_packages	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def fixup_namespace_packages(path_item, parent=None):$/;"	f
+format_alias	/usr/lib/python2.7/dist-packages/setuptools/command/alias.py	/^def format_alias(name, aliases):$/;"	f
+format_failure	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def format_failure(self, err):$/;"	m	class:DocFileCase
+format_failure	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def format_failure(self, err):$/;"	m	class:DocTestCase
+found_conflicts	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def found_conflicts(self, dist, blockers):$/;"	f
+from_filename	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def from_filename(cls,filename,metadata=None, **kw):$/;"	m	class:Distribution
+from_filename	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    from_filename = classmethod(from_filename)$/;"	v	class:Distribution
+from_location	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def from_location(cls,location,basename,metadata=None,**kw):$/;"	m	class:Distribution
+from_location	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    from_location = classmethod(from_location)$/;"	v	class:Distribution
+full_name	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^    def full_name(self):$/;"	m	class:Require
+gen_header	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def gen_header(self):$/;"	m	class:bdist_egg
+gen_setup	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def gen_setup(self, filename, fragment, tmpdir):$/;"	m	class:PackageIndex
+gen_usage	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def gen_usage (script_name):$/;"	f	function:main
+get	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def get(self):$/;"	m	class:_TestClass
+get_build_platform	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def get_build_platform():$/;"	f
+get_cache_path	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_cache_path(self, archive_name, names=()):$/;"	m	class:ResourceManager
+get_cmdline_options	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def get_cmdline_options(self):$/;"	m	class:Distribution
+get_command_class	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def get_command_class(self, command):$/;"	m	class:Distribution
+get_data_files	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def get_data_files(self): pass  # kludge 2.4 for lazy computation$/;"	m	class:build_py
+get_default_cache	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def get_default_cache():$/;"	f
+get_distribution	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def get_distribution(dist):$/;"	f
+get_doctest	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def get_doctest(self, string, globs, name, filename, lineno):$/;"	m	class:DocTestParser
+get_entry_info	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_entry_info(self, group, name):$/;"	m	class:Distribution
+get_entry_info	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def get_entry_info(dist, group, name):$/;"	f
+get_entry_map	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_entry_map(self, group=None):$/;"	m	class:Distribution
+get_entry_map	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def get_entry_map(dist, group=None):$/;"	f
+get_entry_map	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def get_entry_map(self, group):$/;"	m	class:FakeDist
+get_examples	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def get_examples(self, string, name='<string>'):$/;"	m	class:DocTestParser
+get_exclusions	/usr/lib/python2.7/dist-packages/setuptools/command/install_lib.py	/^    def get_exclusions(self):$/;"	m	class:install_lib
+get_exe_prefixes	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def get_exe_prefixes(exe_filename):$/;"	f
+get_export_symbols	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def get_export_symbols(self, ext):$/;"	m	class:build_ext
+get_ext_filename	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def get_ext_filename(self, fullname):$/;"	m	class:build_ext
+get_ext_outputs	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def get_ext_outputs(self):$/;"	m	class:bdist_egg
+get_importer	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def get_importer(path_item):$/;"	f
+get_metadata	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^        def get_metadata(self, name):$/;"	f	function:NullProvider.has_metadata
+get_metadata	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_metadata(name):$/;"	m	class:IMetadataProvider
+get_metadata	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_metadata(self,name):$/;"	m	class:FileMetadata
+get_metadata	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def get_metadata(self,name):$/;"	m	class:Metadata
+get_metadata_lines	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_metadata_lines(name):$/;"	m	class:IMetadataProvider
+get_metadata_lines	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_metadata_lines(self, name):$/;"	m	class:NullProvider
+get_metadata_lines	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_metadata_lines(self,name):$/;"	m	class:FileMetadata
+get_metadata_lines	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def get_metadata_lines(self,name):$/;"	m	class:Metadata
+get_module_constant	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^def get_module_constant(module, symbol, default=-1, paths=None):$/;"	f
+get_outputs	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def get_outputs(self):$/;"	m	class:bdist_egg
+get_outputs	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def get_outputs(self):$/;"	m	class:build_ext
+get_outputs	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^        def get_outputs(self, include_bytecode=1):$/;"	f	function:build_py.get_data_files
+get_outputs	/usr/lib/python2.7/dist-packages/setuptools/command/install_egg_info.py	/^    def get_outputs(self):$/;"	m	class:install_egg_info
+get_outputs	/usr/lib/python2.7/dist-packages/setuptools/command/install_lib.py	/^    def get_outputs(self):$/;"	m	class:install_lib
+get_package_dir	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def get_package_dir(self, package):$/;"	m	class:build_py
+get_pkg_info_revision	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^def get_pkg_info_revision():$/;"	f
+get_platform	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^get_platform = get_build_platform   # XXX backward compat$/;"	v
+get_provider	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def get_provider(moduleOrReq):$/;"	f
+get_resource_filename	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_resource_filename(manager, resource_name):$/;"	m	class:IResourceProvider
+get_resource_filename	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_resource_filename(self, manager, resource_name):$/;"	m	class:NullProvider
+get_resource_filename	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_resource_filename(self, manager, resource_name):$/;"	m	class:ZipProvider
+get_resource_stream	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_resource_stream(manager, resource_name):$/;"	m	class:IResourceProvider
+get_resource_stream	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_resource_stream(self, manager, resource_name):$/;"	m	class:DefaultProvider
+get_resource_stream	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_resource_stream(self, manager, resource_name):$/;"	m	class:NullProvider
+get_resource_string	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_resource_string(manager, resource_name):$/;"	m	class:IResourceProvider
+get_resource_string	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def get_resource_string(self, manager, resource_name):$/;"	m	class:NullProvider
+get_script_args	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def get_script_args(dist, executable=sys_executable, wininst=False):$/;"	f
+get_script_header	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def get_script_header(script_text, executable=sys_executable, wininst=False):$/;"	f
+get_site_dirs	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def get_site_dirs():$/;"	f
+get_supported_platform	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def get_supported_platform():$/;"	f
+get_svn_revision	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def get_svn_revision(self):$/;"	m	class:egg_info
+get_version	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^    def get_version(self, paths=None, default="unknown"):$/;"	m	class:Require
+getvalue	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def getvalue(self):$/;"	m	class:_SpoofOut
+handle_extra_path	/usr/lib/python2.7/dist-packages/setuptools/command/install.py	/^    def handle_extra_path(self):$/;"	m	class:install
+has_contents_for	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def has_contents_for(self,package):$/;"	m	class:Distribution
+has_metadata	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def has_metadata(name):$/;"	m	class:IMetadataProvider
+has_metadata	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def has_metadata(self, name):$/;"	m	class:NullProvider
+has_metadata	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def has_metadata(self,name):$/;"	m	class:FileMetadata
+has_metadata	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def has_metadata(self,name):$/;"	m	class:Metadata
+has_resource	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def has_resource(resource_name):$/;"	m	class:IResourceProvider
+has_resource	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def has_resource(self, resource_name):$/;"	m	class:NullProvider
+has_version	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def has_version(self):$/;"	m	class:Distribution
+has_win32com	/usr/lib/python2.7/dist-packages/setuptools/tests/test_sandbox.py	/^def has_win32com():$/;"	f
+hashcmp	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    hashcmp = property($/;"	v	class:Distribution
+have_pyrex	/usr/lib/python2.7/dist-packages/setuptools/extension.py	/^    have_pyrex = False$/;"	v
+have_pyrex	/usr/lib/python2.7/dist-packages/setuptools/extension.py	/^    have_pyrex = True$/;"	v
+have_rtld	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^        have_rtld = True$/;"	v
+have_rtld	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^have_rtld = False$/;"	v
+htmldecode	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def htmldecode(text):$/;"	f
+id	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def id(self):$/;"	m	class:DocFileCase
+id	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def id(self):$/;"	m	class:DocTestCase
+if_dl	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^def if_dl(s):$/;"	f
+include	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def include(self,**attrs):$/;"	m	class:Distribution
+include_by_default	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def include_by_default(self):$/;"	m	class:Feature
+include_feature	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def include_feature(self,name):$/;"	m	class:Distribution
+include_in	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def include_in(self,dist):$/;"	m	class:Feature
+info	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def info(self, msg, *args):$/;"	m	class:PackageIndex
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/alias.py	/^    def initialize_options(self):$/;"	m	class:alias
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def initialize_options (self):$/;"	m	class:bdist_egg
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_rpm.py	/^    def initialize_options(self):$/;"	m	class:bdist_rpm
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def initialize_options(self):$/;"	m	class:build_ext
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def initialize_options(self):$/;"	m	class:build_py
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/develop.py	/^    def initialize_options(self):$/;"	m	class:develop
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def initialize_options(self):$/;"	m	class:easy_install
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def initialize_options (self):$/;"	m	class:manifest_maker
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def initialize_options(self):$/;"	m	class:egg_info
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/install.py	/^    def initialize_options(self):$/;"	m	class:install
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/install_egg_info.py	/^    def initialize_options(self):$/;"	m	class:install_egg_info
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/install_scripts.py	/^    def initialize_options(self):$/;"	m	class:install_scripts
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/rotate.py	/^    def initialize_options(self):$/;"	m	class:rotate
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^    def initialize_options(self):$/;"	m	class:option_base
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^    def initialize_options(self):$/;"	m	class:setopt
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/test.py	/^    def initialize_options(self):$/;"	m	class:test
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/upload.py	/^    def initialize_options(self):$/;"	m	class:upload
+initialize_options	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^    def initialize_options(self):$/;"	m	class:upload_docs
+insert_on	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def insert_on(self, path, loc = None):$/;"	m	class:Distribution
+install	/usr/lib/python2.7/dist-packages/setuptools/command/install.py	/^class install(_install):$/;"	c
+install_egg	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def install_egg(self, egg_path, tmpdir):$/;"	f
+install_egg_info	/usr/lib/python2.7/dist-packages/setuptools/command/install_egg_info.py	/^class install_egg_info(Command):$/;"	c
+install_egg_scripts	/usr/lib/python2.7/dist-packages/setuptools/command/develop.py	/^    def install_egg_scripts(self, dist):$/;"	m	class:develop
+install_egg_scripts	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def install_egg_scripts(self, dist):$/;"	f
+install_eggs	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def install_eggs(self, spec, dist_filename, tmpdir):$/;"	f
+install_exe	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def install_exe(self, dist_filename, tmpdir):$/;"	f
+install_for_development	/usr/lib/python2.7/dist-packages/setuptools/command/develop.py	/^    def install_for_development(self):$/;"	m	class:develop
+install_item	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def install_item(self, spec, download, tmpdir, deps, install_needed=False):$/;"	f
+install_lib	/usr/lib/python2.7/dist-packages/setuptools/command/install_lib.py	/^class install_lib(_install_lib):$/;"	c
+install_namespaces	/usr/lib/python2.7/dist-packages/setuptools/command/install_egg_info.py	/^    def install_namespaces(self):$/;"	m	class:install_egg_info
+install_script	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def install_script(self, dist, script_name, script_text, dev_path=None):$/;"	f
+install_scripts	/usr/lib/python2.7/dist-packages/setuptools/command/install_scripts.py	/^class install_scripts(_install_scripts):$/;"	c
+install_site_py	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def install_site_py(self):$/;"	f
+install_wrapper_scripts	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def install_wrapper_scripts(self, dist):$/;"	f
+installation_report	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def installation_report(self, req, dist, what="Installed"):$/;"	f
+interpret_distro_name	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def interpret_distro_name(location, basename, metadata,$/;"	f
+is_current	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^    def is_current(self,paths=None):$/;"	m	class:Require
+is_present	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^    def is_present(self,paths=None):$/;"	m	class:Require
+is_private	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def is_private(prefix, base):$/;"	f
+is_python	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def is_python(text, filename='<string>'):$/;"	f
+is_python_script	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def is_python_script(script_text, filename):$/;"	f
+is_sh	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def is_sh(executable):$/;"	f
+isascii	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def isascii(s):$/;"	f
+isascii	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def isascii(s):$/;"	f	function:samefile
+issue_warning	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def issue_warning(*args,**kw):$/;"	f
+iter_distribution_names	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def iter_distribution_names(self):$/;"	m	class:Distribution
+iter_entry_points	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def iter_entry_points(self, group, name=None):$/;"	m	class:WorkingSet
+iter_entry_points	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^iter_entry_points = working_set.iter_entry_points$/;"	v
+iter_symbols	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^def iter_symbols(code):$/;"	f
+joinpath	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^def joinpath(prefix,suffix):$/;"	f
+key	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def key(self):$/;"	m	class:Distribution
+key	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    key = property(key)$/;"	v	class:Distribution
+lib2to3_fixer_packages	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^lib2to3_fixer_packages = ['lib2to3.fixes']$/;"	v
+libtype	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    libtype = 'static'$/;"	v
+libtype	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^libtype = 'shared'$/;"	v
+link_shared_object	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def link_shared_object(self, objects, output_libname, output_dir=None,$/;"	f
+link_shared_object	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def link_shared_object(self, objects, output_libname, output_dir=None,$/;"	m	class:build_ext
+links_to_dynamic	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def links_to_dynamic(self, ext):$/;"	m	class:build_ext
+load	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def load(self, require=True, env=None, installer=None):$/;"	m	class:EntryPoint
+loadTestsFromModule	/usr/lib/python2.7/dist-packages/setuptools/command/test.py	/^    def loadTestsFromModule(self, module):$/;"	m	class:ScanningLoader
+load_entry_point	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def load_entry_point(self, group, name):$/;"	m	class:Distribution
+load_entry_point	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def load_entry_point(dist, group, name):$/;"	f
+load_module	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def load_module(self, fullname):$/;"	m	class:ImpLoader
+loader	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    loader = None$/;"	v	class:NullProvider
+local_open	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def local_open(url):$/;"	f
+log_debug	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^        def log_debug(self, msg, *args):$/;"	m	class:DistutilsRefactoringTool
+log_error	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^        def log_error(self, msg, *args, **kw):$/;"	m	class:DistutilsRefactoringTool
+log_message	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^        def log_message(self, msg, *args):$/;"	m	class:DistutilsRefactoringTool
+macosVersionString	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^macosVersionString = re.compile(r"macosx-(\\d+)\\.(\\d+)-(.*)")$/;"	v
+main	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def main(argv=None, **kw):$/;"	f
+makeSetup	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^def makeSetup(**args):$/;"	f
+make_init_files	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def make_init_files(self):$/;"	m	class:bdist_egg
+make_relative	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def make_relative(self,path):$/;"	m	class:PthDistributions
+make_release_tree	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^    def make_release_tree(self, base_dir, files):$/;"	m	class:sdist
+make_zipfile	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^def make_zipfile(zip_filename, base_dir, verbose=0, dry_run=0, compress=None,$/;"	f
+manifest_maker	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^class manifest_maker(sdist):$/;"	c
+master	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^master = None$/;"	v
+maybe_move	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def maybe_move(self, spec, dist_filename, setup_base):$/;"	f
+merge	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def merge(self, other):$/;"	m	class:DocTestRunner
+merge	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def merge(self, other):$/;"	m	class:Tester
+metadata_isdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def metadata_isdir(name):$/;"	m	class:IMetadataProvider
+metadata_isdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def metadata_isdir(self,name):$/;"	m	class:NullProvider
+metadata_listdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def metadata_listdir(name):$/;"	m	class:IMetadataProvider
+metadata_listdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def metadata_listdir(self,name):$/;"	m	class:NullProvider
+module_path	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    module_path   = None$/;"	v	class:EmptyProvider
+move_file	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_rpm.py	/^        def move_file(self, src, dst, level=1):$/;"	f	function:bdist_rpm.initialize_options
+need_version_info	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def need_version_info(self, url):$/;"	m	class:PackageIndex
+negative_opt	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    negative_opt = {'always-unzip': 'zip-ok'}$/;"	v	class:easy_install
+negative_opt	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    negative_opt = {'no-svn-revision': 'tag-svn-revision',$/;"	v	class:egg_info
+negative_opt	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^    negative_opt = {}$/;"	v	class:sdist
+new_commands	/usr/lib/python2.7/dist-packages/setuptools/command/install.py	/^    new_commands = [$/;"	v	class:install
+no_default_version_msg	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def no_default_version_msg(self):$/;"	f
+non_ascii_exe	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    non_ascii_exe = '\/Users\/José\/bin\/python'$/;"	v	class:ScriptHeaderTests
+normalize_path	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def normalize_path(filename):$/;"	f
+not_editable	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def not_editable(self, spec):$/;"	f
+not_found_in_index	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def not_found_in_index(self, requirement):$/;"	m	class:PackageIndex
+nt_quote_arg	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def nt_quote_arg(arg):$/;"	f
+null_ns_handler	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def null_ns_handler(importer, path_item, packageName, module):$/;"	f
+obtain	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def obtain(self, requirement, installer=None):$/;"	m	class:Environment
+obtain	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def obtain(self, requirement, installer=None):$/;"	m	class:PackageIndex
+onerror	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^        def onerror(*args):$/;"	f	function:rmtree
+open	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def open(self, file, flags, mode=0777):$/;"	m	class:DirectorySandbox
+open_url	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def open_url(self, url, warning=None):$/;"	m	class:PackageIndex
+open_with_auth	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def open_with_auth(url):$/;"	f
+open_with_auth	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^open_with_auth = socket_timeout(_SOCKET_TIMEOUT)(open_with_auth)$/;"	v
+option_base	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^class option_base(Command):$/;"	c
+output_difference	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def output_difference(self, example, got, optionflags):$/;"	m	class:OutputChecker
+overwrite_arg	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^def overwrite_arg(cmd, basename, filename):$/;"	f
+parse	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def parse(cls, src, dist=None):$/;"	m	class:EntryPoint
+parse	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def parse(s, replacement=True):$/;"	m	class:Requirement
+parse	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    parse = classmethod(parse)$/;"	v	class:EntryPoint
+parse	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    parse = staticmethod(parse)$/;"	v	class:Requirement
+parse	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def parse(self, string, name='<string>'):$/;"	m	class:DocTestParser
+parse_bdist_wininst	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def parse_bdist_wininst(name):$/;"	f
+parse_command_line	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def parse_command_line(self):$/;"	m	class:Distribution
+parse_group	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def parse_group(cls, group, lines, dist=None):$/;"	m	class:EntryPoint
+parse_group	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    parse_group = classmethod(parse_group)$/;"	v	class:EntryPoint
+parse_map	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def parse_map(cls, data, dist=None):$/;"	m	class:EntryPoint
+parse_map	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    parse_map = classmethod(parse_map)$/;"	v	class:EntryPoint
+parse_requirement_arg	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def parse_requirement_arg(spec):$/;"	f
+parse_requirements	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def parse_requirements(strs):$/;"	f
+parse_version	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def parse_version(s):$/;"	f
+parsed_version	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def parsed_version(self):$/;"	m	class:Distribution
+parsed_version	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    parsed_version = property(parsed_version)$/;"	v	class:Distribution
+patch_missing_pkg_info	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def patch_missing_pkg_info(self, attrs):$/;"	m	class:Distribution
+pf	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^        def pf(src,dst):$/;"	f	function:.unpack_and_compile
+pf	/usr/lib/python2.7/dist-packages/setuptools/command/install_lib.py	/^        def pf(src, dst):$/;"	f	function:install_lib.copy_tree
+postprocess	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def postprocess(self, tempname, filename):$/;"	m	class:ResourceManager
+prescan	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def prescan(self):$/;"	m	class:PackageIndex
+print_commands	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def print_commands(self):$/;"	m	class:Distribution
+process	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^        def process(src,dst):$/;"	f	function:.exe_to_egg
+process_distribution	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def process_distribution(self, requirement, dist, deps=True, *info):$/;"	f
+process_filename	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def process_filename(self, fn, nested=False):$/;"	m	class:PackageIndex
+process_index	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def process_index(self,url,page):$/;"	m	class:PackageIndex
+process_url	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def process_url(self, url, retrieve=False):$/;"	m	class:PackageIndex
+prune_file_list	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def prune_file_list (self):$/;"	m	class:manifest_maker
+pseudo_tempname	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def pseudo_tempname(self):$/;"	m	class:easy_install
+re_finder	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^def re_finder(pattern, postproc=None):$/;"	f
+read_template	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^    def read_template(self):$/;"	m	class:sdist
+register	/usr/lib/python2.7/dist-packages/setuptools/command/register.py	/^class register(_register):$/;"	c
+register_finder	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def register_finder(importer_type, distribution_finder):$/;"	f
+register_loader_type	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def register_loader_type(loader_type, provider_factory):$/;"	f
+register_namespace_handler	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def register_namespace_handler(importer_type, namespace_handler):$/;"	f
+register_optionflag	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def register_optionflag(name):$/;"	f
+reinitialize_command	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^    def reinitialize_command(self, command, reinit_subcommands=0, **kw):$/;"	m	class:Command
+reinitialize_command	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_wininst.py	/^    def reinitialize_command (self, command, reinit_subcommands=0):$/;"	m	class:bdist_wininst
+remove	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def remove(self, dist):$/;"	m	class:Environment
+remove	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def remove(self,dist):$/;"	m	class:PthDistributions
+replace	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^replace = {'pre':'c', 'preview':'c','-':'final-','rc':'c','dev':'@'}.get$/;"	v
+report_editable	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def report_editable(self, spec, setup_script):$/;"	f
+report_failure	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def report_failure(self, out, test, example, got):$/;"	m	class:DebugRunner
+report_failure	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def report_failure(self, out, test, example, got):$/;"	m	class:DocTestRunner
+report_start	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def report_start(self, out, test, example):$/;"	m	class:DocTestRunner
+report_success	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def report_success(self, out, test, example, got):$/;"	m	class:DocTestRunner
+report_unexpected_exception	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def report_unexpected_exception(self, out, test, example, exc_info):$/;"	m	class:DebugRunner
+report_unexpected_exception	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def report_unexpected_exception(self, out, test, example, exc_info):$/;"	m	class:DocTestRunner
+reporthook	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def reporthook(self, url, filename, blocknum, blksize, size):$/;"	m	class:PackageIndex
+require	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def require(self, *requirements):$/;"	m	class:WorkingSet
+require	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def require(self, env=None, installer=None):$/;"	m	class:EntryPoint
+require	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^require = working_set.require$/;"	v
+requires	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def requires(self,extras=()):$/;"	m	class:Distribution
+resolve	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def resolve(self, requirements, env=None, installer=None, replacement=True):$/;"	m	class:WorkingSet
+resource_exists	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def resource_exists(self, package_or_requirement, resource_name):$/;"	m	class:ResourceManager
+resource_filename	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def resource_filename(self, package_or_requirement, resource_name):$/;"	m	class:ResourceManager
+resource_isdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def resource_isdir(resource_name):$/;"	m	class:IResourceProvider
+resource_isdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def resource_isdir(self, package_or_requirement, resource_name):$/;"	m	class:ResourceManager
+resource_isdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def resource_isdir(self,resource_name):$/;"	m	class:NullProvider
+resource_listdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def resource_listdir(resource_name):$/;"	m	class:IResourceProvider
+resource_listdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def resource_listdir(self, package_or_requirement, resource_name):$/;"	m	class:ResourceManager
+resource_listdir	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def resource_listdir(self,resource_name):$/;"	m	class:NullProvider
+resource_stream	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def resource_stream(self, package_or_requirement, resource_name):$/;"	m	class:ResourceManager
+resource_string	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def resource_string(self, package_or_requirement, resource_name):$/;"	m	class:ResourceManager
+rmtree	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def rmtree(path, ignore_errors=False, onerror=auto_chmod):$/;"	f
+rotate	/usr/lib/python2.7/dist-packages/setuptools/command/rotate.py	/^class rotate(Command):$/;"	c
+run	/usr/lib/python2.7/dist-packages/setuptools/command/alias.py	/^    def run(self):$/;"	m	class:alias
+run	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def run(self):$/;"	m	class:bdist_egg
+run	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_rpm.py	/^    def run(self):$/;"	m	class:bdist_rpm
+run	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_wininst.py	/^    def run(self):$/;"	m	class:bdist_wininst
+run	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def run(self):$/;"	m	class:build_ext
+run	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^    def run(self):$/;"	m	class:build_py
+run	/usr/lib/python2.7/dist-packages/setuptools/command/develop.py	/^    def run(self):$/;"	m	class:develop
+run	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def run(self):$/;"	m	class:easy_install
+run	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def run(self):$/;"	m	class:egg_info
+run	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def run(self):$/;"	m	class:manifest_maker
+run	/usr/lib/python2.7/dist-packages/setuptools/command/install.py	/^    def run(self):$/;"	m	class:install
+run	/usr/lib/python2.7/dist-packages/setuptools/command/install_egg_info.py	/^    def run(self):$/;"	m	class:install_egg_info
+run	/usr/lib/python2.7/dist-packages/setuptools/command/install_lib.py	/^    def run(self):$/;"	m	class:install_lib
+run	/usr/lib/python2.7/dist-packages/setuptools/command/install_scripts.py	/^    def run(self):$/;"	m	class:install_scripts
+run	/usr/lib/python2.7/dist-packages/setuptools/command/register.py	/^    def run(self):$/;"	m	class:register
+run	/usr/lib/python2.7/dist-packages/setuptools/command/rotate.py	/^    def run(self):$/;"	m	class:rotate
+run	/usr/lib/python2.7/dist-packages/setuptools/command/saveopts.py	/^    def run(self):$/;"	m	class:saveopts
+run	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^    def run(self):$/;"	m	class:sdist
+run	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^    def run(self):$/;"	m	class:setopt
+run	/usr/lib/python2.7/dist-packages/setuptools/command/test.py	/^    def run(self):$/;"	m	class:test
+run	/usr/lib/python2.7/dist-packages/setuptools/command/upload.py	/^    def run(self):$/;"	m	class:upload
+run	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^    def run(self):$/;"	m	class:upload_docs
+run	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def run(self, func):$/;"	m	class:AbstractSandbox
+run	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def run(self, test, compileflags=None, out=None, clear_globs=True):$/;"	m	class:DebugRunner
+run	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def run(self, test, compileflags=None, out=None, clear_globs=True):$/;"	m	class:DocTestRunner
+runTest	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def runTest(self):$/;"	m	class:DocTestCase
+run_2to3	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^        def run_2to3(self, files, doctests = False):$/;"	m	class:Mixin2to3
+run_2to3	/usr/lib/python2.7/dist-packages/setuptools/command/build_py.py	/^        def run_2to3(self, files, doctests=True):$/;"	m	class:Mixin2to3
+run_2to3_on_doctests	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^run_2to3_on_doctests = True$/;"	v
+run__test__	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def run__test__(self, d, name):$/;"	m	class:Tester
+run_docstring_examples	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def run_docstring_examples(f, globs, verbose=False, name="NoName",$/;"	f
+run_main	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^run_main = run_script   # backward compatibility$/;"	v
+run_script	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def run_script(script_name, namespace):$/;"	m	class:IMetadataProvider
+run_script	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def run_script(self, requires, script_name):$/;"	m	class:WorkingSet
+run_script	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def run_script(self,script_name,namespace):$/;"	m	class:NullProvider
+run_script	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def run_script(dist_spec, script_name):$/;"	f
+run_script	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^run_script = working_set.run_script$/;"	v
+run_setup	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def run_setup(self, setup_script, setup_base, args):$/;"	f
+run_setup	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^def run_setup(setup_script, args):$/;"	f
+run_tests	/usr/lib/python2.7/dist-packages/setuptools/command/test.py	/^    def run_tests(self):$/;"	m	class:test
+rundict	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def rundict(self, d, name, module=None):$/;"	m	class:Tester
+rundoc	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def rundoc(self, object, name=None, module=None):$/;"	m	class:Tester
+runstring	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def runstring(self, s, name):$/;"	m	class:Tester
+safe_extra	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def safe_extra(extra):$/;"	f
+safe_name	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def safe_name(name):$/;"	f
+safe_version	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def safe_version(version):$/;"	f
+safety_flags	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^safety_flags = {$/;"	v
+samefile	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def samefile(p1,p2):$/;"	f
+save	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def save(self):$/;"	m	class:PthDistributions
+save_version_info	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def save_version_info(self, filename):$/;"	m	class:egg_info
+saveopts	/usr/lib/python2.7/dist-packages/setuptools/command/saveopts.py	/^class saveopts(option_base):$/;"	c
+scan	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def scan(self, search_path=None):$/;"	m	class:Environment
+scan	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^        def scan(link):$/;"	f	function:PackageIndex.process_index
+scan_all	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def scan_all(self, msg=None, *args):$/;"	m	class:PackageIndex
+scan_egg_link	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def scan_egg_link(self, path, entry):$/;"	m	class:PackageIndex
+scan_egg_links	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def scan_egg_links(self, search_path):$/;"	m	class:PackageIndex
+scan_list	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def scan_list(ITEM,TERMINATOR,line,p,groups,item_name):$/;"	f	function:parse_requirements
+scan_module	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^def scan_module(egg_dir, base, name, stubs):$/;"	f
+scan_url	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def scan_url(self, url):$/;"	m	class:PackageIndex
+script_from_examples	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def script_from_examples(s):$/;"	f
+sdist	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^class sdist(_sdist):$/;"	c
+select_scheme	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def select_scheme(self, name):$/;"	f
+sequence	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^sequence = tuple, list$/;"	v
+serve	/usr/lib/python2.7/dist-packages/setuptools/tests/server.py	/^    def serve(self):$/;"	m	class:IndexServer
+setUp	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def setUp(self):$/;"	m	class:DistroTests
+setUp	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def setUp(self):$/;"	m	class:FeatureTests
+setUp	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def setUp(self):$/;"	m	class:DocTestCase
+setUp	/usr/lib/python2.7/dist-packages/setuptools/tests/test_develop.py	/^    def setUp(self):$/;"	m	class:TestDevelopTest
+setUp	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def setUp(self):$/;"	m	class:TestUserInstallTest
+setUp	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def setUp(self):$/;"	m	class:EntryPointTests
+setUp	/usr/lib/python2.7/dist-packages/setuptools/tests/test_sandbox.py	/^    def setUp(self):$/;"	m	class:TestSandbox
+setUp	/usr/lib/python2.7/dist-packages/setuptools/tests/test_upload_docs.py	/^    def setUp(self):$/;"	m	class:TestUploadDocsTest
+set_extraction_path	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def set_extraction_path(self, path):$/;"	m	class:ResourceManager
+set_unittest_reportflags	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def set_unittest_reportflags(flags):$/;"	f
+setopt	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^class setopt(option_base):$/;"	c
+setup	/usr/lib/python2.7/dist-packages/setuptools/__init__.py	/^setup = distutils.core.setup$/;"	v
+setup_shlib_compiler	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def setup_shlib_compiler(self):$/;"	m	class:build_ext
+shortDescription	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def shortDescription(self):$/;"	m	class:DocTestCase
+should_unzip	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def should_unzip(self, dist):$/;"	f
+shquote	/usr/lib/python2.7/dist-packages/setuptools/command/alias.py	/^def shquote(arg):$/;"	f
+skimmer	/usr/lib/python2.7/dist-packages/setuptools/command/install_egg_info.py	/^        def skimmer(src,dst):$/;"	f	function:install_egg_info.copytree
+socket_timeout	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def socket_timeout(timeout=15):$/;"	f
+split_sections	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def split_sections(s):$/;"	f
+square	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def square(self):$/;"	m	class:_TestClass
+start	/usr/lib/python2.7/dist-packages/setuptools/tests/server.py	/^    def start(self):$/;"	m	class:IndexServer
+state_machine	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^state_machine = {$/;"	v
+stop	/usr/lib/python2.7/dist-packages/setuptools/tests/server.py	/^    def stop(self):$/;"	m	class:IndexServer
+strip_module	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^def strip_module(filename):$/;"	f
+submap_expect	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    submap_expect = dict($/;"	v	class:EntryPointTests
+subscribe	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def subscribe(self, callback):$/;"	m	class:WorkingSet
+summarize	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def summarize(self, verbose=None):$/;"	m	class:DocTestRunner
+summarize	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def summarize(self, verbose=None):$/;"	m	class:Tester
+swig_sources	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^        def swig_sources(self, sources, *otherargs):$/;"	f	function:build_ext.copy_extensions_to_source
+sys_executable	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^sys_executable = os.path.normpath(sys.executable)$/;"	v
+tagged_version	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def tagged_version(self):$/;"	m	class:egg_info
+tags	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def tags(self):$/;"	m	class:egg_info
+tearDown	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def tearDown(self):$/;"	m	class:DocTestCase
+tearDown	/usr/lib/python2.7/dist-packages/setuptools/tests/test_develop.py	/^    def tearDown(self):$/;"	m	class:TestDevelopTest
+tearDown	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def tearDown(self):$/;"	m	class:TestUserInstallTest
+tearDown	/usr/lib/python2.7/dist-packages/setuptools/tests/test_sandbox.py	/^    def tearDown(self):$/;"	m	class:TestSandbox
+tearDown	/usr/lib/python2.7/dist-packages/setuptools/tests/test_upload_docs.py	/^    def tearDown(self):$/;"	m	class:TestUploadDocsTest
+template	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    template = "MANIFEST.in"$/;"	v	class:manifest_maker
+test	/usr/lib/python2.7/dist-packages/setuptools/command/test.py	/^class test(Command):$/;"	c
+testAdvancedContains	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testAdvancedContains(self):$/;"	m	class:RequirementsTests
+testAvailability	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testAvailability(self):$/;"	m	class:FeatureTests
+testBasicContains	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testBasicContains(self):$/;"	m	class:RequirementsTests
+testBasics	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testBasics(self):$/;"	m	class:EntryPointTests
+testBasics	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testBasics(self):$/;"	m	class:RequirementsTests
+testCollection	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testCollection(self):$/;"	m	class:DistroTests
+testConflictingOptions	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testConflictingOptions(self):$/;"	m	class:TestCommandTests
+testContents	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testContents(self):$/;"	m	class:DistroTests
+testDefaultSuite	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testDefaultSuite(self):$/;"	m	class:TestCommandTests
+testDefaultWModuleOnCmdLine	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testDefaultWModuleOnCmdLine(self):$/;"	m	class:TestCommandTests
+testDefaults	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testDefaults(self):$/;"	m	class:FeatureTests
+testDistributeSetuptoolsOverride	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testDistributeSetuptoolsOverride(self):$/;"	m	class:RequirementsTests
+testDistroBasics	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testDistroBasics(self):$/;"	m	class:DistroTests
+testDistroDependsOptions	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testDistroDependsOptions(self):$/;"	m	class:DistroTests
+testDistroDependsSimple	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testDistroDependsSimple(self):$/;"	m	class:DistroTests
+testDistroMetadata	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testDistroMetadata(self):$/;"	m	class:DistroTests
+testDistroParse	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testDistroParse(self):$/;"	m	class:DistroTests
+testDistroType	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testDistroType(self):$/;"	m	class:DistroTests
+testEmpty	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testEmpty(self):$/;"	m	class:DistroTests
+testEmptyParse	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testEmptyParse(self):$/;"	m	class:ParseTests
+testExcludePackage	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testExcludePackage(self):$/;"	m	class:DistroTests
+testExcludePackages	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testExcludePackages(self):$/;"	m	class:DistroTests
+testExtractConst	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testExtractConst(self):$/;"	m	class:DependsTests
+testFeatureOptions	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testFeatureOptions(self):$/;"	m	class:FeatureTests
+testFeatureWithInvalidRemove	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testFeatureWithInvalidRemove(self):$/;"	m	class:FeatureTests
+testFindModule	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testFindModule(self):$/;"	m	class:DependsTests
+testIncludeExclude	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testIncludeExclude(self):$/;"	m	class:DistroTests
+testInvalidIncludeExclude	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testInvalidIncludeExclude(self):$/;"	m	class:DistroTests
+testLongOptSuiteWNoDefault	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testLongOptSuiteWNoDefault(self):$/;"	m	class:TestCommandTests
+testModuleExtract	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testModuleExtract(self):$/;"	m	class:DependsTests
+testNoSuite	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testNoSuite(self):$/;"	m	class:TestCommandTests
+testOptionsAndHashing	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testOptionsAndHashing(self):$/;"	m	class:RequirementsTests
+testOrdering	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testOrdering(self):$/;"	m	class:RequirementsTests
+testParse	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testParse(self):$/;"	m	class:EntryPointTests
+testParseList	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testParseList(self):$/;"	m	class:EntryPointTests
+testParseMap	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testParseMap(self):$/;"	m	class:EntryPointTests
+testRejects	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testRejects(self):$/;"	m	class:EntryPointTests
+testRequire	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testRequire(self):$/;"	m	class:DependsTests
+testResolve	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testResolve(self):$/;"	m	class:DistroTests
+testSafeName	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testSafeName(self):$/;"	m	class:ParseTests
+testSafeVersion	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testSafeVersion(self):$/;"	m	class:ParseTests
+testSetuptoolsDistributeCombination	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testSetuptoolsDistributeCombination(self):$/;"	m	class:DistroTests
+testSimpleRequirements	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testSimpleRequirements(self):$/;"	m	class:ParseTests
+testSplitting	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testSplitting(self):$/;"	m	class:ParseTests
+testTestIsCommand	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testTestIsCommand(self):$/;"	m	class:TestCommandTests
+testUseFeatures	/usr/lib/python2.7/dist-packages/setuptools/tests/__init__.py	/^    def testUseFeatures(self):$/;"	m	class:FeatureTests
+testVersionEquality	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testVersionEquality(self):$/;"	m	class:ParseTests
+testVersionEquality	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testVersionEquality(self):$/;"	m	class:RequirementsTests
+testVersionOrdering	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testVersionOrdering(self):$/;"	m	class:ParseTests
+testYielding	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def testYielding(self):$/;"	m	class:ParseTests
+test_add_from_cwd_site_sets_dirty	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def test_add_from_cwd_site_sets_dirty(self):$/;"	m	class:TestPTHFileWriter
+test_add_from_site_is_ignored	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def test_add_from_site_is_ignored(self):$/;"	m	class:TestPTHFileWriter
+test_bad_urls	/usr/lib/python2.7/dist-packages/setuptools/tests/test_packageindex.py	/^    def test_bad_urls(self):$/;"	m	class:TestPackageIndex
+test_create_zipfile	/usr/lib/python2.7/dist-packages/setuptools/tests/test_upload_docs.py	/^    def test_create_zipfile(self):$/;"	m	class:TestUploadDocsTest
+test_develop	/usr/lib/python2.7/dist-packages/setuptools/tests/test_develop.py	/^    def test_develop(self):$/;"	m	class:TestDevelopTest
+test_develop_with_setup_requires	/usr/lib/python2.7/dist-packages/setuptools/tests/test_develop.py	/^    def test_develop_with_setup_requires(self):$/;"	m	class:TestDevelopTest
+test_devnull	/usr/lib/python2.7/dist-packages/setuptools/tests/test_sandbox.py	/^    def test_devnull(self):$/;"	m	class:TestSandbox
+test_get_ext_filename	/usr/lib/python2.7/dist-packages/setuptools/tests/test_build_ext.py	/^    def test_get_ext_filename(self):$/;"	m	class:TestBuildExtTest
+test_get_script_args	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def test_get_script_args(self):$/;"	m	class:TestEasyInstallTest
+test_get_script_header	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def test_get_script_header(self):$/;"	m	class:ScriptHeaderTests
+test_get_script_header_jython_workaround	/usr/lib/python2.7/dist-packages/setuptools/tests/test_resources.py	/^    def test_get_script_header_jython_workaround(self):$/;"	m	class:ScriptHeaderTests
+test_install_site_py	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def test_install_site_py(self):$/;"	m	class:TestEasyInstallTest
+test_links_priority	/usr/lib/python2.7/dist-packages/setuptools/tests/test_packageindex.py	/^    def test_links_priority(self):$/;"	m	class:TestPackageIndex
+test_local_index	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def test_local_index(self):$/;"	m	class:TestUserInstallTest
+test_multiproc_atexit	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def test_multiproc_atexit(self):$/;"	m	class:TestUserInstallTest
+test_no_find_links	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def test_no_find_links(self):$/;"	m	class:TestEasyInstallTest
+test_no_setup_cfg	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def test_no_setup_cfg(self):$/;"	m	class:TestEasyInstallTest
+test_url_ok	/usr/lib/python2.7/dist-packages/setuptools/tests/test_packageindex.py	/^    def test_url_ok(self):$/;"	m	class:TestPackageIndex
+test_user_install_implied	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def test_user_install_implied(self):$/;"	m	class:TestUserInstallTest
+test_user_install_not_implied_without_usersite_enabled	/usr/lib/python2.7/dist-packages/setuptools/tests/test_easy_install.py	/^    def test_user_install_not_implied_without_usersite_enabled(self):$/;"	m	class:TestUserInstallTest
+test_win32com	/usr/lib/python2.7/dist-packages/setuptools/tests/test_sandbox.py	/^        def test_win32com(self):$/;"	f	function:TestSandbox._file_writer
+testfile	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def testfile(filename, module_relative=True, name=None, package=None,$/;"	f
+testmod	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def testmod(m=None, name=None, globs=None, verbose=None, isprivate=None,$/;"	f
+testsource	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^def testsource(module, name):$/;"	f
+tmpnam	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    def tmpnam(self):$/;"	m	class:DirectorySandbox
+to_filename	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def to_filename(name):$/;"	f
+trace_dispatch	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def trace_dispatch(self, *args):$/;"	m	class:_OutputRedirectingPdb
+truncate	/usr/lib/python2.7/dist-packages/setuptools/tests/doctest.py	/^    def truncate(self,   size=None):$/;"	m	class:_SpoofOut
+uchr	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^def uchr(c):$/;"	f
+uncache_zipdir	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^def uncache_zipdir(path):$/;"	f
+unescape	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^def unescape(data):$/;"	f
+uninstall_link	/usr/lib/python2.7/dist-packages/setuptools/command/develop.py	/^    def uninstall_link(self):$/;"	m	class:develop
+unpack_and_compile	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def unpack_and_compile(self, egg_path, destination):$/;"	f
+unpack_archive	/usr/lib/python2.7/dist-packages/setuptools/archive_util.py	/^def unpack_archive(filename, extract_dir, progress_filter=default_filter,$/;"	f
+unpack_directory	/usr/lib/python2.7/dist-packages/setuptools/archive_util.py	/^def unpack_directory(filename, extract_dir, progress_filter=default_filter):$/;"	f
+unpack_progress	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def unpack_progress(self, src, dst):$/;"	f
+unpack_tarfile	/usr/lib/python2.7/dist-packages/setuptools/archive_util.py	/^def unpack_tarfile(filename, extract_dir, progress_filter=default_filter):$/;"	f
+unpack_zipfile	/usr/lib/python2.7/dist-packages/setuptools/archive_util.py	/^def unpack_zipfile(filename, extract_dir, progress_filter=default_filter):$/;"	f
+update_pth	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def update_pth(self,dist):$/;"	f
+upload	/usr/lib/python2.7/dist-packages/setuptools/command/upload.py	/^class upload(Command):$/;"	c
+upload_docs	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^class upload_docs(upload):$/;"	c
+upload_file	/usr/lib/python2.7/dist-packages/setuptools/command/upload.py	/^    def upload_file(self, command, pyversion, filename):$/;"	m	class:upload
+upload_file	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^    def upload_file(self, filename):$/;"	m	class:upload_docs
+url_ok	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def url_ok(self, url, fatal=False):$/;"	m	class:PackageIndex
+use_stubs	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^        use_stubs = True$/;"	v
+use_stubs	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    use_stubs = True$/;"	v
+use_stubs	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^use_stubs = False$/;"	v
+user_agent	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^user_agent = "Python-urllib\/%s distribute\/%s" % ($/;"	v
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/alias.py	/^    user_options = [$/;"	v	class:alias
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    user_options = [$/;"	v	class:bdist_egg
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/develop.py	/^    user_options = easy_install.user_options + [$/;"	v	class:develop
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    user_options = [$/;"	v	class:easy_install
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    user_options = [$/;"	v	class:egg_info
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/install.py	/^    user_options = _install.user_options + [$/;"	v	class:install
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/install_egg_info.py	/^    user_options = [$/;"	v	class:install_egg_info
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/rotate.py	/^    user_options = [$/;"	v	class:rotate
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^    user_options = [$/;"	v	class:sdist
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^    user_options = [$/;"	v	class:option_base
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/setopt.py	/^    user_options = [$/;"	v	class:setopt
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/test.py	/^    user_options = [$/;"	v	class:test
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/upload.py	/^    user_options = [$/;"	v	class:upload
+user_options	/usr/lib/python2.7/dist-packages/setuptools/command/upload_docs.py	/^    user_options = [$/;"	v	class:upload_docs
+validate	/usr/lib/python2.7/dist-packages/setuptools/dist.py	/^    def validate(self,dist):$/;"	m	class:Feature
+version	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    def version(self):$/;"	m	class:Distribution
+version	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^    version = property(version)$/;"	v	class:Distribution
+version_ok	/usr/lib/python2.7/dist-packages/setuptools/depends.py	/^    def version_ok(self,version):$/;"	m	class:Require
+visit	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def visit(z, dirname, names):$/;"	f
+walk_egg	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^def walk_egg(egg_dir):$/;"	f
+walk_revctrl	/usr/lib/python2.7/dist-packages/setuptools/command/sdist.py	/^def walk_revctrl(dirname=''):$/;"	f
+warn	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def warn(self, msg):    # suppress missing-file warnings from sdist$/;"	m	class:manifest_maker
+warn	/usr/lib/python2.7/dist-packages/setuptools/package_index.py	/^    def warn(self, msg, *args):$/;"	m	class:PackageIndex
+warn_depends_obsolete	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^def warn_depends_obsolete(cmd, basename, filename):$/;"	f
+warn_deprecated_options	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def warn_deprecated_options(self):$/;"	m	class:easy_install
+with_ei_usage	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def with_ei_usage(f):$/;"	f	function:main
+with_project_on_sys_path	/usr/lib/python2.7/dist-packages/setuptools/command/test.py	/^    def with_project_on_sys_path(self, func):$/;"	m	class:test
+working_set	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^working_set = WorkingSet()$/;"	v
+wrap	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^        def wrap(self,*args,**kw):$/;"	f	function:AbstractSandbox._mk_query
+wrap	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^        def wrap(self,path,*args,**kw):$/;"	f	function:AbstractSandbox._mk_single_path_wrapper
+wrap	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^        def wrap(self,path,*args,**kw):$/;"	f	function:AbstractSandbox._mk_single_with_return
+wrap	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^        def wrap(self,src,dst,*args,**kw):$/;"	f	function:AbstractSandbox._mk_dual_path_wrapper
+write_arg	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^def write_arg(cmd, basename, filename, force=False):$/;"	f
+write_entries	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^def write_entries(cmd, basename, filename):$/;"	f
+write_file	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def write_file(self, what, filename, data):$/;"	m	class:egg_info
+write_file	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^def write_file (filename, contents):$/;"	f
+write_manifest	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def write_manifest (self):$/;"	m	class:manifest_maker
+write_ops	/usr/lib/python2.7/dist-packages/setuptools/sandbox.py	/^    write_ops = dict.fromkeys([$/;"	v	class:DirectorySandbox
+write_or_delete_file	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^    def write_or_delete_file(self, what, filename, data, force=False):$/;"	m	class:egg_info
+write_pkg_info	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^def write_pkg_info(cmd, basename, filename):$/;"	f
+write_requirements	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^def write_requirements(cmd, basename, filename):$/;"	f
+write_safety_flag	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^def write_safety_flag(egg_dir, safe):$/;"	f
+write_script	/usr/lib/python2.7/dist-packages/setuptools/command/easy_install.py	/^    def write_script(self, script_name, contents, mode="t", blockers=()):$/;"	f
+write_script	/usr/lib/python2.7/dist-packages/setuptools/command/install_scripts.py	/^    def write_script(self, script_name, contents, mode="t", *ignored):$/;"	m	class:install_scripts
+write_stub	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^def write_stub(resource, pyfile):$/;"	f
+write_stub	/usr/lib/python2.7/dist-packages/setuptools/command/build_ext.py	/^    def write_stub(self, output_dir, ext, compile=False):$/;"	m	class:build_ext
+write_toplevel_names	/usr/lib/python2.7/dist-packages/setuptools/command/egg_info.py	/^def write_toplevel_names(cmd, basename, filename):$/;"	f
+yield_lines	/usr/lib/python2.7/dist-packages/pkg_resources.py	/^def yield_lines(strs):$/;"	f
+zap_pyfiles	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def zap_pyfiles(self):$/;"	m	class:bdist_egg
+zip_safe	/usr/lib/python2.7/dist-packages/setuptools/command/bdist_egg.py	/^    def zip_safe(self):$/;"	m	class:bdist_egg

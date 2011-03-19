@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/kylepoole/Documents/Mendeley Desktop'
+let g:netrw_dirhist_2='/home/kp/.pentadactyl'
+let g:netrw_dirhist_3='/home/kp'

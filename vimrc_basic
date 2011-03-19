@@ -92,5 +92,11 @@ endif
 """"""""""""""""""""""
 """ OTHER
 """""""""""""""""""""""
-set nobackup
-set writebackup
+"set writebackup
+set backup
+set backupdir=~/.vim/backup
+set directory=~/.vim/tmp
+
+" Since I use linux, I want this
+let g:clipbrdDefaultReg = '+'
+

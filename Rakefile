@@ -26,8 +26,12 @@ namespace :update do
     :rails         => "git://github.com/tpope/vim-rails.git",
     :surround      => "git://github.com/tpope/vim-surround.git",
     :tabular       => "git://github.com/godlygeek/tabular",
-    :taglist       => "http://www.vim.org/scripts/download_script.php?src_id=7701",
+    :taglist       => "git://github.com/vim-scripts/taglist.vim.git",
     :taskpaper     => "git://github.com/davidoc/taskpaper.vim.git",
+    :pydoc         => "git://github.com/fs111/pydoc.vim.git",
+    :easytags      => "git://github.com/vim-scripts/easytags.vim.git",
+    :autoclose     => "https://github.com/vim-scripts/AutoClose.git",
+    :Conque-Shell  => "https://github.com/vim-scripts/Conque-Shell.git",
 
     # syntax definitions
     :syntax_git       => "git://github.com/tpope/vim-git.git",

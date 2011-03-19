@@ -25,7 +25,7 @@ set showmode       " show the current mode
 set laststatus=2   " always show statusline
 
 " Set the textwidth to be 120 chars
-set textwidth=120
+"set textwidth=120
 
 " get rid of the silly characters in window separators
 set fillchars=""
@@ -54,4 +54,4 @@ set statusline+=@\ L%l\ C%c\ (%P)\        " position in file
 "set background=dark " use colors suitable for dark backgrounds
 "colorscheme torte
 set t_Co=256 "for zenburn theme in terminal
-colo zenburn
+colo wombat256

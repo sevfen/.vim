@@ -14,6 +14,10 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader=',' " set leader to ,
 
+" Up and down are more logical with g..
+"nnoremap <silent> k gk
+"nnoremap <silent> j gj
+
 " format paragraphs (72 columns)
 map ^^ {!}par w72qrg<CR>
 
@@ -91,3 +95,8 @@ map <F2> NERDTreeToggle
 map <F3> "+P
 map! <F3> <C-R>+
 set pastetoggle=<F4>
+
+inoremap <Nul> <C-x><C-o> 
+
+" Execute file being edited with <Shift> + e:
+map <buffer> <S-e> :w<CR>:!/usr/bin/env python % <CR>

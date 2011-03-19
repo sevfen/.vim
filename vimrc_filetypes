@@ -5,8 +5,7 @@
 """
 """ Git Hubs: http://github.com/bleything/dotvim
 """ Internet Electronic Mail: ben@bleything.net
-"""
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ F I L E T Y P E   O P T I O N S
@@ -47,5 +46,54 @@ set ofu=syntaxcomplete#Complete
 "autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 "autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 "autocmd FileType c set omnifunc=ccomplete#Complete
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" CTAGS
+"""""""""""""""""""""""""""""""""""""""""""""""""""""
+" set tags=$HOME/.vim/plugins/tags
+" set tags+=$HOME/.vim/tags/python.ctags
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" Python
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd BufWrite *.{py} :call Pyflakes()"
+python << EOL
+import vim
+# Do not say 'from vim import *' because that
+# will delete builtin function eval.
+
+def EvaluateCurrentLine(*args):
+  cur_str = vim.current.line
+  action, symb = None, None
+  for i in args:
+    if i in ["r","p"]: action = i
+    else: symb = i
+  try: start = cur_str.rindex(symb)+len(symb)
+  except: start = 0
+  result = eval(cur_str[start:],globals())
+  if action == "r":
+    vim.current.line = cur_str[:start]+str(result)
+  else:
+    print result
+EOL
+command -narg=* PyEv python EvaluateCurrentLine(<f-args>)
+
+command Pyflakes :call Pyflakes()
+function! Pyflakes()
+    let tmpfile = tempname()
+    execute "w" tmpfile
+    execute "set makeprg=(pyflakes\\ " . tmpfile . "\\\\\\|sed\\ s@" . tmpfile ."@%@)"
+    make
+    cw
+endfunction
+
+command Pylint :call Pylint()
+function! Pylint()
+    setlocal makeprg=(echo\ '[%]';\ pylint\ %)
+    setlocal efm=%+P[%f],%t:\ %#%l:%m
+    silent make
+    cwindow
+endfunction
 
 
